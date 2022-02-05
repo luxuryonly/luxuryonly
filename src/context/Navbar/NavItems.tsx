@@ -12,11 +12,15 @@ export const NavItems = ({ path }: { path: string }) => {
 			</li>
 
 			<li className={path === '/' ? 'active-nav' : 'nav-item'}>
+				<Link href="/">Kittens</Link>
+			</li>
+
+			<li className={path === '/' ? 'active-nav' : 'nav-item'}>
 				<Link href="/">Shipping</Link>
 			</li>
 
 			<li className={path === '/' ? 'active-nav' : 'nav-item'}>
-				<Link href="/">Kittens</Link>
+				<Link href="/">FAQ</Link>
 			</li>
 
 			<li className={path === '/' ? 'active-nav' : 'nav-item'}>

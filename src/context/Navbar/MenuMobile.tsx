@@ -43,18 +43,25 @@ export const MenuMobile = ({ path }: { path: string }) => {
 					>
 						<Link href="/">About Us</Link>
 					</li>
-					<li
-						onClick={handleClick}
-						className={path === '/' ? 'active-nav' : 'nav-item'}
-					>
-						<Link href="/">Shipping</Link>
-					</li>
+
 					<li
 						onClick={handleClick}
 						className={path === '/' ? 'active-nav' : 'nav-item'}
 					>
 						<Link href="/">Kittens</Link>
 					</li>
+
+					<li
+						onClick={handleClick}
+						className={path === '/' ? 'active-nav' : 'nav-item'}
+					>
+						<Link href="/">Shipping</Link>
+					</li>
+
+					<li className={path === '/' ? 'active-nav' : 'nav-item'}>
+						<Link href="/">FAQ</Link>
+					</li>
+
 					<li
 						onClick={handleClick}
 						className={path === '/' ? 'active-nav' : 'nav-item'}
