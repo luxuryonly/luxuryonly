@@ -20,10 +20,26 @@ export const Navbar = () => {
 							<Link href="/">Home</Link>
 						</li>
 						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
-							<Link href="/about">About</Link>
+							<Link href="/about">About Us</Link>
 						</li>
-						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
-							<Link href="/">Kittens</Link>
+						<li className="dropdown dropdown-hover">
+							<p tabIndex={0} className="m-1 btn">
+								Kittens
+							</p>
+							<ul
+								tabIndex={0}
+								className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52"
+							>
+								<li>
+									<Link href="/kittens">Kittens</Link>
+								</li>
+								<li>
+									<Link href="/queens">Our Queens</Link>
+								</li>
+								<li>
+									<Link href="/kings">Our Kings</Link>
+								</li>
+							</ul>
 						</li>
 					</ul>
 					<a

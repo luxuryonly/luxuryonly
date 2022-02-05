@@ -124,9 +124,9 @@ const Home: NextPage = () => {
 									<p className="leading-relaxed mb-3">
 										Luxury Only is a TICA registered cattery. We take pride in
 										continuing to procreate the purest, healthiest Champion
-										bloodlines of Scottish Fold/Straight and British Shorthair
-										cats. Following breeding guidelines is extremely important
-										to us to ensure kittens' perfect health.
+										bloodlines of British Shorthair cats. Following breeding
+										guidelines is extremely important to us to ensure
+										kittens&apos; perfect health.
 									</p>
 								</div>
 							</div>
@@ -145,10 +145,9 @@ const Home: NextPage = () => {
 									<p className="leading-relaxed mb-3">
 										Besides looking gorgeous and cute, these breeds also carry
 										the sweetest and most caring personalities. There is nothing
-										more they like better than being around their people,
-										participating in every activity. Scottish Fold/Straight and
-										British Shorthair are famous for being affectionate,
-										playful, and active pets.
+										more they love than being around their people, participating
+										in every activity. British Shorthairs are famous for being
+										affectionate, playful, and active pets.
 									</p>
 								</div>
 							</div>

@@ -1,5 +1,5 @@
+import type { NextPage } from 'next';
 import { ReactNode, useState } from 'react';
-import { NextPage } from 'next';
 
 const Item = ({ title, children }: { title: string; children: ReactNode }) => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -101,19 +101,15 @@ const Faq: NextPage = () => {
 						</div>
 					</div>
 					<div className="space-y-4">
-						<Item title="The quick, brown fox jumps over a lazy dog?">
+						<Item title="What documents come with the kitten?">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
-						<Item title="The first mate and his Skipper too will do?">
+						<Item title="Are kittens spayed/neutered?">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
-						<Item title="Is the Space Pope reptilian!?">
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-							accusantium doloremque rem aperiam, eaque ipsa quae.
-						</Item>
-						<Item title="How much money you got on you?">
+						<Item title="How much is a kitten?">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
@@ -121,7 +117,11 @@ const Faq: NextPage = () => {
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
-						<Item title="How much money you got on you?">
+						<Item title="What documents come with the kitten?">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque rem aperiam, eaque ipsa quae.
+						</Item>
+						<Item title="Can I return the kitten?">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
