@@ -90,13 +90,14 @@ const Faq: NextPage = () => {
 											height="24"
 										/>
 									</svg>
-									<span className="relative">The</span>
+									<span className="relative">Frequently</span>
 								</span>{' '}
-								quick, brown fox jumps over a lazy dog
+								Asked Questions
 							</h2>
 							<p className="text-base text-gray-700 md:text-lg">
-								Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-								accusantium doloremque rem aperiam, eaque ipsa quae.
+								We have listed the most popular questions, but if you don&apos;t
+								find the question you are looking for, please contact us (571)
+								201-6369 and we will get back to you as soon as possible.
 							</p>
 						</div>
 					</div>
@@ -113,7 +114,7 @@ const Faq: NextPage = () => {
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
-						<Item title="How much money you got on you?">
+						<Item title="Can I reserve a kitten?">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
@@ -122,6 +123,28 @@ const Faq: NextPage = () => {
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>
 						<Item title="Can I return the kitten?">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque rem aperiam, eaque ipsa quae.
+						</Item>
+						<Item title="What vaccines will my kitten come with?">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque rem aperiam, eaque ipsa quae.
+						</Item>
+						<Item title="What will my kitten come with?">
+							- TICA registration (after spay/neuter) - Health records (Proof of
+							vaccinations & Vet Exam) - Sample of Food (Soft & Kibble) -
+							Contract & Health Guarantee - A blanket that smells like mom &
+							siblings - Favorite toy - Lifetime care support from Meow Genes
+						</Item>
+						<Item title="Will my kitten be registered?">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque rem aperiam, eaque ipsa quae.
+						</Item>
+						<Item title="What kinds of food do you feed your cats?">
+							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+							accusantium doloremque rem aperiam, eaque ipsa quae.
+						</Item>
+						<Item title="Is there a contract?">
 							Sed ut perspiciatis unde omnis iste natus error sit voluptatem
 							accusantium doloremque rem aperiam, eaque ipsa quae.
 						</Item>

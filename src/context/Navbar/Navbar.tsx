@@ -1,10 +1,5 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
-
-import { useMobile } from '../../hooks/useMobile';
-import { MenuMobile } from './MenuMobile';
-import { NavItems } from './NavItems';
-import { DarkModeToggle } from 'src/helpers/DarkModeToggle';
 import { useState } from 'react';
 
 export const Navbar = () => {

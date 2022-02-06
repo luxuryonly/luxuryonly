@@ -49,5 +49,5 @@ ul {
 }
 
 .main-heading {
-	@apply text-3xl text-center font-bold mt-9;
+	@apply text-3xl text-center font-bold my-12;
 }
