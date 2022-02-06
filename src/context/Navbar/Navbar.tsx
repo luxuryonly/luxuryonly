@@ -22,7 +22,7 @@ export const Navbar = () => {
 						</li>
 						<li className="dropdown dropdown-hover">
 							<div className="flex items-center text-white">
-								<p>Kittens </p>
+								<p>Our Cats</p>
 								<FiChevronDown className="ml-1" />
 							</div>
 							<ul className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
@@ -30,10 +30,10 @@ export const Navbar = () => {
 									<Link href="/kittens">Kittens</Link>
 								</li>
 								<li>
-									<Link href="/queens">Our Queens</Link>
+									<Link href="/queens">Queens</Link>
 								</li>
 								<li>
-									<Link href="/kings">Our Kings</Link>
+									<Link href="/kings">Kings</Link>
 								</li>
 							</ul>
 						</li>
@@ -57,7 +57,7 @@ export const Navbar = () => {
 							<Link href="/faq">FAQ</Link>
 						</li>
 						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
-							<Link href="/contact">Contact</Link>
+							<Link href="/contact">Contact Us</Link>
 						</li>
 					</ul>
 					<div className="lg:hidden">

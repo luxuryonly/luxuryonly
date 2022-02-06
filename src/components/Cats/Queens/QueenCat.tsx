@@ -4,7 +4,7 @@ import { queenContentList } from './queenContentList';
 export const QueenCat = () => {
 	return (
 		<>
-			<section className="text-gray-600 body-font">
+			<section className="text-gray-600 body-font max-w-6xl mx-auto">
 				{queenContentList.map(({ name, birthday, description, images }) => (
 					<div
 						className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
