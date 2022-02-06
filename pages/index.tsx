@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
-import { HomeCarousel } from 'src/components/Home/Carousel';
+import { HomeCarousel } from 'src/components/Home/HomeCarousel';
+import { Carousel } from 'react-responsive-carousel';
 
 const Home: NextPage = () => {
 	return (
@@ -11,11 +12,19 @@ const Home: NextPage = () => {
 			<section className="text-gray-600 body-font">
 				<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
 					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-						<img
-							className="object-cover object-center rounded"
-							alt="hero"
-							src="https://dummyimage.com/720x600"
-						/>
+						<Carousel
+							className="max-w-screen-2xl text-center mx-auto"
+							autoPlay={true}
+							infiniteLoop={true}
+							interval={6000}
+							showThumbs={false}
+							showStatus={false}
+							showArrows={false}
+							showIndicators={false}
+						>
+							<img src="http://pets.com.mt/images/2018/09/28/50594/beautiful-british-shorthair-kittens_1.jpg" />
+							<img src="https://cdn.fotofits.com/petzlover/gallery/img/l/british-shorthair-556404.jpeg" />
+						</Carousel>
 					</div>
 					<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
 						<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">

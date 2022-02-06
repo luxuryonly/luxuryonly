@@ -2,6 +2,9 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
 
+import { FiPhone, FiChevronDown } from 'react-icons/fi';
+import { BiChevronDown } from 'react-icons/bi';
+
 export const Navbar = () => {
 	const { asPath: path } = useRouter();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,13 +21,11 @@ export const Navbar = () => {
 							<Link href="/about">About Us</Link>
 						</li>
 						<li className="dropdown dropdown-hover">
-							<p tabIndex={0} className="m-1 btn">
-								Kittens
-							</p>
-							<ul
-								tabIndex={0}
-								className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52"
-							>
+							<div className="flex items-center text-white">
+								<p>Kittens </p>
+								<FiChevronDown className="ml-1" />
+							</div>
+							<ul className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
 								<li>
 									<Link href="/kittens">Kittens</Link>
 								</li>
@@ -37,19 +38,17 @@ export const Navbar = () => {
 							</ul>
 						</li>
 					</ul>
-					<a
-						href="/"
-						aria-label="Company"
-						title="Company"
-						className="inline-flex items-center"
-					>
-						<div>
-							<p className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+					<div className="flex flex-col items-center">
+						<p className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+							<Link href="/" aria-label="Company">
 								Luxury Only
-							</p>
-							<p className="text-center text-white">(571) 201-6369</p>
+							</Link>
+						</p>
+						<div className="flex items-center text-white">
+							<FiPhone />
+							<p className="pl-2">(571) 201-6369</p>
 						</div>
-					</a>
+					</div>
 					<ul className="flex hidden items-center space-x-8 lg:flex">
 						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
 							<Link href="/adopt">Adopt</Link>
