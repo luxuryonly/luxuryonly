@@ -10,7 +10,152 @@ export const Navbar = () => {
 
 	return (
 		<header className="bg-beige-100">
-			<div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
+			<nav className="px-2 bg-white border-gray-200">
+				<div className="container flex flex-wrap justify-between items-center mx-auto">
+					<div className="flex flex-col items-center">
+						<img src="/logo.png" alt="" width="70" />
+						<p className="ml-2 text-xl font-bold tracking-wide text-gray-1000 uppercase">
+							<Link href="/" aria-label="Company">
+								Luxury Only
+							</Link>
+						</p>
+					</div>
+					<div className="flex items-center text-gray-1000 md:hidden">
+						<FiPhone />
+						<p className="pl-2">(571) 201-6369</p>
+					</div>
+
+					<button
+						data-collapse-toggle="mobile-menu"
+						type="button"
+						className="inline justify-center items-center ml-3 text-gray-400 rounded-lg
+						md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
+						aria-controls="mobile-menu-2"
+						aria-expanded="false"
+					>
+						<span className="sr-only">Open main menu</span>
+						<svg
+							className="w-6 h-6"
+							fill="currentColor"
+							viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fillRule="evenodd"
+								d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+								clipRule="evenodd"
+							></path>
+						</svg>
+						<svg
+							className="hidden w-6 h-6"
+							fill="currentColor"
+							viewBox="0 0 20 20"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<path
+								fillRule="evenodd"
+								d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+								clipRule="evenodd"
+							></path>
+						</svg>
+					</button>
+					<div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+						<ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+							<li
+								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
+									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+							>
+								<Link href="/">Home</Link>
+							</li>
+							<li
+								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
+									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+							>
+								<Link href="/about">About</Link>
+							</li>
+							<li>
+								<button
+									id="dropdownNavbarLink"
+									data-dropdown-toggle="dropdownNavbar"
+									className="flex justify-between items-center py-2 pr-4 pl-3 w-full text-gray-700 border-b border-gray-100 hover:bg-gray-50
+									md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
+								>
+									Our Cats{' '}
+									<svg
+										className="ml-1 w-4 h-4"
+										fill="currentColor"
+										viewBox="0 0 20 20"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											fillRule="evenodd"
+											d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+											clipRule="evenodd"
+										></path>
+									</svg>
+								</button>
+
+								<div
+									id="dropdownNavbar"
+									className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
+								>
+									<ul className="py-1" aria-labelledby="dropdownLargeButton">
+										<li
+											className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+											// className={
+											// 	path === '/adopt' ? 'active-nav' : 'nav-item'
+											// }
+										>
+											<Link href="/kittens">Kittens</Link>
+										</li>
+
+										<li
+											className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+											// className={
+											// 	path === '/adopt' ? 'active-nav' : 'nav-item'
+											// }
+										>
+											<Link href="/queens">Queens</Link>
+										</li>
+										<li
+											className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+											// className={
+											// 	path === '/adopt' ? 'active-nav' : 'nav-item'
+											// }
+										>
+											<Link href="/kings">Kings</Link>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li
+								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
+									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+							>
+								<Link href="/adopt">Adopt</Link>
+							</li>
+							<li
+								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
+									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+							>
+								<Link href="/faq">FAQ</Link>
+							</li>
+							<li
+								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
+									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
+							>
+								<Link href="/contact">Contact</Link>
+							</li>
+						</ul>
+					</div>
+					<div className="md:flex items-center text-gray-1000 hidden">
+						<FiPhone />
+						<p className="pl-1">(571) 201-6369</p>
+					</div>
+				</div>
+			</nav>
+
+			{/* <div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 				<div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
 					<ul className="flex items-center hidden space-x-8 lg:flex">
 						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
@@ -203,7 +348,7 @@ export const Navbar = () => {
 						)}
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</header>
 	);
 };

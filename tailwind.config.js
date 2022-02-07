@@ -1,5 +1,9 @@
 module.exports = {
-	content: ['./pages/**/*.{js,ts,jsx,tsx}', './src/**/*.{js,ts,jsx,tsx}'],
+	content: [
+		'./pages/**/*.{js,ts,jsx,tsx}',
+		'./src/**/*.{js,ts,jsx,tsx}',
+		'./node_modules/flowbite/**/*.js'
+	],
 	theme: {
 		extend: {
 			fontSize: {
@@ -21,7 +25,7 @@ module.exports = {
 			}
 		}
 	},
-	plugins: [require('daisyui')],
+	plugins: [require('daisyui'), require('flowbite/plugin')],
 	daisyui: {
 		base: false
 	}

@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<section className="text-gray-600 body-font">
-				<div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+				<div className="container mx-auto flex px-5 md:pb-24 md:pt-16 md:flex-row flex-col-reverse items-center">
 					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
 						<Carousel
 							className="max-w-screen-2xl text-center mx-auto"
@@ -26,13 +26,12 @@ const Home: NextPage = () => {
 							<img src="https://cdn.fotofits.com/petzlover/gallery/img/l/british-shorthair-556404.jpeg" />
 						</Carousel>
 					</div>
-					<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-						<h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-							Before they sold out
-							<br className="hidden lg:inline-block" />
-							readymade gluten
+					<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center">
+						<img src="/fulllogo.png" alt="" />
+						<h1 className="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">
+							Breeding with Love
 						</h1>
-						<p className="mb-8 leading-relaxed">
+						<p className="mb-8 leading-relaxed md:text-left text-center">
 							Copper mug try-hard pitchfork pour-over freegan heirloom neutra
 							air plant cold-pressed tacos poke beard tote bag. Heirloom echo
 							park mlkshk tote bag selvage hot chicken authentic tumeric
