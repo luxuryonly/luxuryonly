@@ -3,25 +3,30 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 import { FiPhone, FiChevronDown } from 'react-icons/fi';
-import { BiChevronDown } from 'react-icons/bi';
 
 export const Navbar = () => {
 	const { asPath: path } = useRouter();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	return (
-		<header className="bg-gray-900">
+		<header className="bg-beige-100">
 			<div className="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
 				<div className="relative flex items-center justify-between lg:justify-center lg:space-x-16">
 					<ul className="flex items-center hidden space-x-8 lg:flex">
 						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
 							<Link href="/">Home</Link>
 						</li>
-						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
+						<li className={path === '/about' ? 'active-nav' : 'nav-item'}>
 							<Link href="/about">About Us</Link>
 						</li>
-						<li className="dropdown dropdown-hover">
-							<div className="flex items-center text-white">
+						<li
+							className={`dropdown dropdown-hover ${
+								path === '/kittens' || path === '/queens' || path === '/kings'
+									? 'active-nav'
+									: 'nav-item'
+							}`}
+						>
+							<div className="flex items-center text-gray-1000">
 								<p>Our Cats</p>
 								<FiChevronDown className="ml-1" />
 							</div>
@@ -39,24 +44,24 @@ export const Navbar = () => {
 						</li>
 					</ul>
 					<div className="flex flex-col items-center">
-						<p className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
+						<p className="ml-2 text-xl font-bold tracking-wide text-gray-1000 uppercase">
 							<Link href="/" aria-label="Company">
 								Luxury Only
 							</Link>
 						</p>
-						<div className="flex items-center text-white">
+						<div className="flex items-center text-gray-1000">
 							<FiPhone />
 							<p className="pl-2">(571) 201-6369</p>
 						</div>
 					</div>
 					<ul className="flex hidden items-center space-x-8 lg:flex">
-						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
+						<li className={path === '/adopt' ? 'active-nav' : 'nav-item'}>
 							<Link href="/adopt">Adopt</Link>
 						</li>
-						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
+						<li className={path === '/faq' ? 'active-nav' : 'nav-item'}>
 							<Link href="/faq">FAQ</Link>
 						</li>
-						<li className={path === '/' ? 'active-nav' : 'nav-item'}>
+						<li className={path === '/contact' ? 'active-nav' : 'nav-item'}>
 							<Link href="/contact">Contact Us</Link>
 						</li>
 					</ul>

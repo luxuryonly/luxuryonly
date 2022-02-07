@@ -12,7 +12,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
 	/* height: 100%; */
-	@apply bg-gray-50 dark:bg-gray-800 dark:text-indigo-50;
 }
 
 button {
@@ -28,8 +27,7 @@ ul {
 } */
 
 .link {
-	@apply underline text-blue-600 hover:text-blue-800
-	dark:hover:text-blue-300 dark:text-blue-400;
+	@apply underline text-blue-600 hover:text-blue-800;
 }
 
 .p-clamp {
@@ -37,17 +35,16 @@ ul {
 }
 
 .nav-item {
-	@apply text-green-main hover:text-green-800 px-2 list-none
-	font-medium text-lg dark:text-green-bp2 dark:hover:text-yellow-400;
+	@apply text-gray-1000 hover:text-green-800 list-none
+	font-medium text-lg;
 }
 
 .active-nav {
-	@apply border-b-2 border-green-300 text-green-main list-none
-	hover:text-green-800 hover:border-green-800 px-2
-	font-medium text-lg dark:text-yellow-400 dark:hover:text-yellow-500
-	dark:border-yellow-400 dark:hover:border-yellow-500;
+	@apply border-b-2 border-gray-1000 text-gray-1000 list-none
+	hover:text-green-800 hover:border-green-800
+	font-medium text-lg;
 }
 
 .main-heading {
-	@apply text-3xl text-center font-bold my-12;
+	@apply text-3xl text-gray-1000 text-center font-bold my-12;
 }
