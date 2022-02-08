@@ -1,5 +1,5 @@
 import { Carousel } from 'react-responsive-carousel';
-import { photosForHome } from './homeCarouselPhotos';
+import { photosForHomeAtBottom } from './homeCarouselPhotos';
 
 export function HomeCarousel() {
 	return (
@@ -11,8 +11,9 @@ export function HomeCarousel() {
 			emulateTouch={true}
 			showStatus={false}
 			interval={4000}
+			dynamicHeight={true}
 		>
-			{photosForHome.map(url => (
+			{photosForHomeAtBottom.map(url => (
 				<img src={url} key={Math.random()} />
 			))}
 		</Carousel>

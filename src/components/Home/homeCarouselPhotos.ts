@@ -1,4 +1,17 @@
-export const photosForHome = [
-	'https://www.freepsdbazaar.com/wp-content/uploads/2020/06/sky-replace/sun-rise/sunrise-19-freepsdbazaar.jpg',
-	'https://www.freepsdbazaar.com/wp-content/uploads/2020/06/sky-replace/sky-sunset/sunset-049-freepsdbazaar.jpg'
+export const photosForHomeAtBottom = [
+	'/Kittens/Landscape/kitten0.webp',
+	'/Kittens/Landscape/kitten1.webp',
+	'/Kittens/Landscape/kitten3.webp',
+	'/Kittens/Landscape/kitten6.webp',
+	'/Kittens/Landscape/kitten8.webp',
+	'/Kittens/Landscape/kitten12.webp',
+	'/Kittens/Landscape/kitten13.webp',
+	'/Kittens/Landscape/kitten14.webp'
+];
+
+export const photosForMain = [
+	'/Kittens/Portrait/kitten7.webp',
+	'/Kittens/Portrait/kitten11.webp',
+	'/Kittens/Portrait/kitten4.webp',
+	'/Kittens/Portrait/kitten6.webp'
 ];

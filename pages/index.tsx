@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { HomeCarousel } from 'src/components/Home/HomeCarousel';
-import { Carousel } from 'react-responsive-carousel';
+import { MainCarousel } from 'src/components/Home/MainCarousel';
 
 const Home: NextPage = () => {
 	return (
@@ -10,53 +10,99 @@ const Home: NextPage = () => {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 			<section className="text-gray-600 body-font">
-				<div className="container mx-auto flex px-5 md:pb-24 md:pt-16 md:flex-row flex-col-reverse items-center">
+				<div className="container mx-auto flex px-5 md:pb-24 md:pt-16 md:flex-row flex-col-reverse items-center pt-10">
 					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-						<Carousel
-							className="max-w-screen-2xl text-center mx-auto"
-							autoPlay={true}
-							infiniteLoop={true}
-							interval={6000}
-							showThumbs={false}
-							showStatus={false}
-							showArrows={false}
-							showIndicators={false}
-						>
-							<img src="http://pets.com.mt/images/2018/09/28/50594/beautiful-british-shorthair-kittens_1.jpg" />
-							<img src="https://cdn.fotofits.com/petzlover/gallery/img/l/british-shorthair-556404.jpeg" />
-						</Carousel>
+						<MainCarousel />
 					</div>
 					<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center">
-						<img src="/fulllogo.png" alt="" />
-						<h1 className="sm:text-4xl text-3xl mb-4 font-medium text-gray-900 text-center">
-							Breeding with Love
-						</h1>
-						<p className="mb-8 leading-relaxed md:text-left text-center">
+						<img src="/fulllogo.webp" alt="LuxuryOnly Logo" />
+						<p className="my-8 leading-relaxed md:text-left text-center">
 							Copper mug try-hard pitchfork pour-over freegan heirloom neutra
 							air plant cold-pressed tacos poke beard tote bag. Heirloom echo
 							park mlkshk tote bag selvage hot chicken authentic tumeric
 							truffaut hexagon try-hard chambray.
 						</p>
-						<div className="flex justify-center">
-							<button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-								Button
-							</button>
-							<button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-								Button
-							</button>
-						</div>
 					</div>
 				</div>
 			</section>
-			<section className="text-gray-400 bg-beige-100 body-font">
+
+			<section className="flex flex-col justify-center items-center md:flex-row mb-28 mt-10">
+				<div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md m-5">
+					<img
+						class="rounded-t-lg"
+						src="/Kittens/Landscape/kitten11.webp"
+						alt=""
+					/>
+					<div class="p-5">
+						<a href="#">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+								British Shorthairs
+							</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+							error quod natus fugit, aperiam nihil commodi quam voluptate quo,
+							dolore quos praesentium excepturi. Ducimus eos, esse, mollitia
+							corrupti, doloremque voluptate nulla nemo animi velit obcaecati
+							iusto atque non quam earum.
+						</p>
+					</div>
+				</div>
+				<div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md m-5">
+					<a href="#">
+						<img
+							class="rounded-t-lg"
+							src="/Kittens/Landscape/kitten10.webp"
+							alt=""
+						/>
+					</a>
+					<div class="p-5">
+						<a href="#">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+								Ragdolls
+							</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
+							iusto blanditiis. Laudantium ad saepe facere enim inventore. Non
+							voluptatibus exercitationem, eveniet deleniti laboriosam sint
+							nostrum doloribus consequuntur pariatur placeat libero debitis. Et
+							ab totam veritatis magni voluptas dolores pariatur nulla?
+						</p>
+					</div>
+				</div>
+				<div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md m-5">
+					<a href="#">
+						<img
+							class="rounded-t-lg"
+							src="/Kittens/Landscape/kitten9.webp"
+							alt=""
+						/>
+					</a>
+					<div class="p-5">
+						<a href="#">
+							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+								Scottish Folds
+							</h5>
+						</a>
+						<p class="mb-3 font-normal text-gray-700 ">
+							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+							ratione, tempore nihil laborum rerum quia maxime quibusdam
+							commodi, aspernatur aut fugiat quos eveniet modi dolorum
+							architecto deleniti repellat quae. Facilis perferendis sunt
+							sapiente magni quo optio cupiditate voluptatibus dolorem ipsam!
+						</p>
+					</div>
+				</div>
+			</section>
+			{/* <section className="text-gray-400 bg-beige-100 body-font">
 				<div className="container px-5 py-24 mx-auto">
 					<div className="flex flex-wrap -m-4">
 						<div className="p-4 md:w-1/3">
 							<div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
 								<img
 									className="lg:h-48 md:h-36 w-full object-cover object-center"
-									src="https://dummyimage.com/720x400"
-									alt="blog"
+									src="/Kittens/Landscape/kitten11.webp"
 								/>
 								<div className="p-6">
 									<h2 className="tracking-widest text-xs title-font font-medium text-gray-500 mb-1">
@@ -122,8 +168,7 @@ const Home: NextPage = () => {
 							<div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
 								<img
 									className="lg:h-48 md:h-36 w-full object-cover object-center"
-									src="https://dummyimage.com/721x401"
-									alt="blog"
+									src="/Kittens/Landscape/kitten10.webp"
 								/>
 								<div className="p-6">
 									<h1 className="title-font text-lg text-center font-medium text-white mb-3">
@@ -143,8 +188,7 @@ const Home: NextPage = () => {
 							<div className="h-full border-2 border-gray-800 rounded-lg overflow-hidden">
 								<img
 									className="lg:h-48 md:h-36 w-full object-cover object-center max-w"
-									src="https://dummyimage.com/722x402"
-									alt="blog"
+									src="/Kittens/Landscape/kitten9.webp"
 								/>
 								<div className="p-6">
 									<h1 className="title-font text-lg text-center font-medium text-white mb-3">
@@ -162,7 +206,7 @@ const Home: NextPage = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 			<HomeCarousel />
 		</>
 	);

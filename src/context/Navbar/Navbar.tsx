@@ -1,6 +1,6 @@
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 
 import { FiPhone, FiChevronDown } from 'react-icons/fi';
 
@@ -14,7 +14,7 @@ export const Navbar = () => {
 				<div className="container flex flex-wrap justify-between items-center mx-auto">
 					<div className="flex flex-col items-center">
 						<img src="/logo.png" alt="" width="70" />
-						<p className="ml-2 text-xl font-bold tracking-wide text-gray-1000 uppercase">
+						<p className="ml-2 text-md lg:text-lg font-bold tracking-wide text-gray-1000 uppercase">
 							<Link href="/" aria-label="Company">
 								Luxury Only
 							</Link>
@@ -60,7 +60,7 @@ export const Navbar = () => {
 						</svg>
 					</button>
 					<div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-						<ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+						<ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm lg:text-lg md:font-medium">
 							<li
 								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
 									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
@@ -78,7 +78,7 @@ export const Navbar = () => {
 									id="dropdownNavbarLink"
 									data-dropdown-toggle="dropdownNavbar"
 									className="flex justify-between items-center py-2 pr-4 pl-3 w-full text-gray-700 border-b border-gray-100 hover:bg-gray-50
-									md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
+									md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto md:font-medium"
 								>
 									Our Cats{' '}
 									<svg
@@ -148,7 +148,7 @@ export const Navbar = () => {
 							</li>
 						</ul>
 					</div>
-					<div className="md:flex items-center text-gray-1000 hidden">
+					<div className="md:flex font-medium items-center text-gray-1000 hidden">
 						<FiPhone />
 						<p className="pl-1">(571) 201-6369</p>
 					</div>
