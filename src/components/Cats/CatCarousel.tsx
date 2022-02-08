@@ -11,7 +11,7 @@ export function CatCarousel({ images }: { images: string[] }) {
 			dynamicHeight={true}
 		>
 			{images.map(url => (
-				<img src={url} key={url} />
+				<img className="rounded-2xl" src={url} key={url} />
 			))}
 		</Carousel>
 	);

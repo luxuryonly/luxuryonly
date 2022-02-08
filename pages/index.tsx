@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 				</div>
 				<div className="md:w-1/2 lg:pl-28 md:pl-16 flex flex-col  items-center">
 					<img
-						className="xl:ml-8 w-2/3 hidden md:inline"
+						className="xl:ml-8 w-3/4 hidden md:inline"
 						src="/fulllogo.webp"
 						alt="LuxuryOnly Logo"
 					/>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
 				<div className="flex flex-col basis-full justify-center md:items-stretch items-center md:flex-wrap md:flex-row">
 					<div className="nft-card">
 						<img
-							className="rounded-t-lg object-cover w-full md:h-72 h-full"
+							className="breed-card-img"
 							src="/Kittens/Landscape/kitten11.webp"
 							alt=""
 						/>
@@ -66,11 +66,30 @@ const Home: NextPage = () => {
 					</div>
 					<div className="nft-card">
 						<img
-							className="rounded-t-lg object-cover w-full md:h-72 h-full"
+							className="breed-card-img"
+							src="/Kittens/Landscape/kitten9.webp"
+							alt=""
+						/>
+						<div className="p-5">
+							<h5 className="breed-card-heading">Scottish Folds</h5>
+							<p className="p-4 text-gray-700">
+								The Scottish Fold is a sweet, charming breed. They are an easy
+								cat to live with and to care for. They are affectionate and are
+								comfortable with all members of their family. They are attentive
+								without being overly demanding. They boast a medium energy level
+								compared to other cats and love to play games and interact with
+								the family. This kitten-like behavior is retained throughout
+								their whole lives which makes these enigmatic cats popular with
+								families.
+							</p>
+						</div>
+					</div>
+					<div className="nft-card">
+						<img
+							className="breed-card-img"
 							src="/Kittens/Landscape/kitten10.webp"
 							alt=""
 						/>
-
 						<div className="p-5">
 							<h5 className="breed-card-heading">Ragdolls</h5>
 							<p className="p-4 text-gray-700">
@@ -83,27 +102,6 @@ const Home: NextPage = () => {
 								other cats and other pets, including dogs. In fact, they even
 								like strangers! They are extremely accommodating and make an
 								obedient pet.
-							</p>
-						</div>
-					</div>
-					<div className="nft-card">
-						<img
-							className="rounded-t-lg object-cover w-full md:h-72 h-full"
-							src="/Kittens/Landscape/kitten9.webp"
-							alt=""
-						/>
-
-						<div className="p-5">
-							<h5 className="breed-card-heading">Scottish Folds</h5>
-							<p className="p-4 font-normal text-gray-700">
-								The Scottish Fold is a sweet, charming breed. They are an easy
-								cat to live with and to care for. They are affectionate and are
-								comfortable with all members of their family. They are attentive
-								without being overly demanding. They boast a medium energy level
-								compared to other cats and love to play games and interact with
-								the family. This kitten-like behavior is retained throughout
-								their whole lives which makes these enigmatic cats popular with
-								families.
 							</p>
 						</div>
 					</div>

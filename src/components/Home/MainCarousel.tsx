@@ -10,7 +10,6 @@ export function MainCarousel() {
 			interval={4000}
 			showThumbs={false}
 			showStatus={false}
-			showArrows={false}
 			showIndicators={false}
 		>
 			{photosForMain.map(url => (
