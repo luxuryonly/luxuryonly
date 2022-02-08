@@ -12,12 +12,12 @@ export const Navbar = () => {
 					<div className="flex items-center mt-2">
 						<img className="w-12" src="/logo1.png" alt="" width="70" />
 						<div className="flex flex-col ml-2">
-							<p className="text-sm lg:text-lg font-bold tracking-wide text-gray-1000 uppercase">
+							<h1 className="text-xs lg:text-lg font-bold tracking-wide text-gray-1000 uppercase">
 								<Link href="/" aria-label="Company">
 									Luxury Only
 								</Link>
-							</p>
-							<p className="text-sm">Cattery</p>
+							</h1>
+							<h2 className="text-xs md:text-sm">Cattery</h2>
 						</div>
 					</div>
 					<div className="flex items-center text-sm text-gray-1000 md:hidden">
@@ -28,7 +28,7 @@ export const Navbar = () => {
 					<button
 						data-collapse-toggle="mobile-menu"
 						type="button"
-						className="inline justify-center items-center ml-3 text-gray-400 rounded-lg
+						className="inline justify-center items-center ml-3 mr-1 text-gray-400 rounded-lg
 						md:hidden hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-300"
 						aria-controls="mobile-menu-2"
 						aria-expanded="false"
