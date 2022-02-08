@@ -64,13 +64,7 @@ const Adopt: NextPage = () => {
 						Lookout flogging bilge rat main sheet bilge water nipper fluke to go
 						on account heave down clap
 					</p>
-					<a
-						href="/"
-						aria-label=""
-						className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-					>
-						Learn more
-					</a>
+
 					<div className="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
 						<svg
 							className="w-8 text-gray-700 transform rotate-90 lg:rotate-0"
@@ -115,15 +109,9 @@ const Adopt: NextPage = () => {
 					<h6 className="mb-2 text-2xl font-extrabold">Step 2</h6>
 					<p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto">
 						They urge you to put down your sword and come join the winners. In
-						22 years the only 'winners'
+						22 years the only
 					</p>
-					<a
-						href="/"
-						aria-label=""
-						className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-					>
-						Learn more
-					</a>
+
 					<div className="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
 						<svg
 							className="w-8 text-gray-700 transform rotate-90 lg:rotate-0"
@@ -170,13 +158,6 @@ const Adopt: NextPage = () => {
 						Tell them I hate them. Is the Space Pope reptilian!? Tell her she
 						looks thin. Hello, little man
 					</p>
-					<a
-						href="/"
-						aria-label=""
-						className="inline-flex items-center font-semibold transition-colors duration-200 text-deep-purple-accent-400 hover:text-deep-purple-800"
-					>
-						Learn more
-					</a>
 				</div>
 			</div>
 		</div>
