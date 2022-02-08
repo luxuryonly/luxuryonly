@@ -9,89 +9,98 @@ const Home: NextPage = () => {
 			<Head>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<section className="text-gray-600 body-font">
-				<div className="container mx-auto flex px-5 md:pb-24 md:pt-16 md:flex-row flex-col-reverse items-center pt-10">
-					<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-						<MainCarousel />
-					</div>
-					<div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center">
-						<img src="/fulllogo.webp" alt="LuxuryOnly Logo" />
-						<p className="my-8 leading-relaxed md:text-left text-center">
-							Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-							air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-							park mlkshk tote bag selvage hot chicken authentic tumeric
-							truffaut hexagon try-hard chambray.
-						</p>
-					</div>
+			<section
+				className="container mx-auto flex px-5 md:pb-24
+				md:pt-16 md:flex-row flex-col-reverse
+				justify-center items-center pt-10"
+			>
+				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+					<MainCarousel />
+				</div>
+				<div className="md:w-1/2 lg:pl-28 md:pl-16 flex flex-col md:items-start items-center">
+					<img className="xl:ml-8" src="/fulllogo.webp" alt="LuxuryOnly Logo" />
+					<p className="my-8 max-w-lg leading-relaxed md:text-left text-center">
+						We treat our kittens as our children who are raised with love, care,
+						and dedication. We are proud of our distinguished, prize winning
+						kittens and only offer them into good homes where they will be loved
+						and pampered. We are a state-of-the-art boutique breeder of precious
+						cats located in Bethesda, MD. If you are looking for high-quality,
+						healthy, well-socialized and lovable kittens, then you are in the
+						right place! We truly love cats and put a lot of thoughts, love and
+						care in breeding our cats.
+					</p>
 				</div>
 			</section>
 
-			<section className="flex flex-col justify-center items-center md:flex-row mb-28 mt-10">
-				<div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md m-5">
-					<img
-						class="rounded-t-lg"
-						src="/Kittens/Landscape/kitten11.webp"
-						alt=""
-					/>
-					<div class="p-5">
-						<a href="#">
-							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+			<section className="mb-28 mt-10">
+				<h2 className="text-center text-2xl">Our Specialty Breeds</h2>
+				<div className="flex flex-col basis-full justify-center items-start md:flex-row">
+					<div className="nft-card">
+						<img
+							className="rounded-t-lg"
+							src="/Kittens/Landscape/kitten11.webp"
+							alt=""
+						/>
+						<div className="p-5">
+							<h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">
 								British Shorthairs
 							</h5>
-						</a>
-						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
-							error quod natus fugit, aperiam nihil commodi quam voluptate quo,
-							dolore quos praesentium excepturi. Ducimus eos, esse, mollitia
-							corrupti, doloremque voluptate nulla nemo animi velit obcaecati
-							iusto atque non quam earum.
-						</p>
+							<p className="mb-3 font-normal text-gray-700">
+								British Shorthair cats are an absolute joy to own. These
+								affectionate pets are ideal companions for families with
+								children and other pets due to their easy going nature, but they
+								can adapt to a wide range of environments. The British Shorthair
+								breed is much calmer than other cats. You will see your British
+								Shorthair play and run for a few minutes, but these cats are
+								calm and laidback most of the time. It’s a cat that will
+								surprise you with its intelligence, loyalty, and affection.
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md m-5">
-					<a href="#">
+					<div className="nft-card">
 						<img
-							class="rounded-t-lg"
+							className="rounded-t-lg"
 							src="/Kittens/Landscape/kitten10.webp"
 							alt=""
 						/>
-					</a>
-					<div class="p-5">
-						<a href="#">
-							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">
+						<div className="p-5">
+							<h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900">
 								Ragdolls
 							</h5>
-						</a>
-						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
-							iusto blanditiis. Laudantium ad saepe facere enim inventore. Non
-							voluptatibus exercitationem, eveniet deleniti laboriosam sint
-							nostrum doloribus consequuntur pariatur placeat libero debitis. Et
-							ab totam veritatis magni voluptas dolores pariatur nulla?
-						</p>
+							<p className="mb-3 font-normal text-gray-700">
+								Ragdoll cats are social, happily spend time in the house of the
+								owner and rarely wander out on their own. They love being with
+								the owner, they yearn for attention and enjoy the company of
+								people. They love being embraced by people and often snuggle up
+								in their lap. They enjoy following their owners and doing what
+								they are doing. Not only do they like people, but they also like
+								other cats and other pets, including dogs. In fact, they even
+								like strangers! They are extremely accommodating and make an
+								obedient pet.
+							</p>
+						</div>
 					</div>
-				</div>
-				<div class="max-w-md bg-white rounded-lg border border-gray-200 shadow-md m-5">
-					<a href="#">
+					<div className="nft-card">
 						<img
-							class="rounded-t-lg"
+							className="rounded-t-lg"
 							src="/Kittens/Landscape/kitten9.webp"
 							alt=""
 						/>
-					</a>
-					<div class="p-5">
-						<a href="#">
-							<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 ">
+						<div className="p-5">
+							<h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 ">
 								Scottish Folds
 							</h5>
-						</a>
-						<p class="mb-3 font-normal text-gray-700 ">
-							Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti
-							ratione, tempore nihil laborum rerum quia maxime quibusdam
-							commodi, aspernatur aut fugiat quos eveniet modi dolorum
-							architecto deleniti repellat quae. Facilis perferendis sunt
-							sapiente magni quo optio cupiditate voluptatibus dolorem ipsam!
-						</p>
+							<p className="mb-3 font-normal text-gray-700">
+								The Scottish Fold is a sweet, charming breed. They are an easy
+								cat to live with and to care for. They are affectionate and are
+								comfortable with all members of their family. They are attentive
+								without being overly demanding. They boast a medium energy level
+								compared to other cats and love to play games and interact with
+								the family. This kitten-like behavior is retained throughout
+								their whole lives which makes these enigmatic cats popular with
+								families.
+							</p>
+						</div>
 					</div>
 				</div>
 			</section>

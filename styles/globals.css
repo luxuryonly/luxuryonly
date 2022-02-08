@@ -48,3 +48,9 @@ ul {
 .main-heading {
 	@apply text-3xl text-gray-1000 text-center font-bold my-12;
 }
+
+.nft-card {
+	@apply m-5 max-w-md rounded-3xl overflow-hidden
+	shadow-xl dark:shadow-2xl dark:bg-gray-700
+	bg-gray-100;
+}
