@@ -1,26 +1,26 @@
 import Link from 'next/link';
-import { useState } from 'react';
 import { useRouter } from 'next/router';
 
 import { FiPhone, FiChevronDown } from 'react-icons/fi';
 
 export const Navbar = () => {
-	const { asPath: path } = useRouter();
-	const [isMenuOpen, setIsMenuOpen] = useState(false);
-
 	return (
-		<header className="bg-beige-100">
-			<nav className="px-2 bg-white border-gray-200">
+		<header className="bg-beige-200">
+			<div className="background-diagonal"></div>
+			<nav className="px-2 border-gray-200">
 				<div className="container flex flex-wrap justify-between items-center mx-auto">
-					<div className="flex flex-col items-center">
-						<img src="/logo.png" alt="" width="70" />
-						<p className="ml-2 text-md lg:text-lg font-bold tracking-wide text-gray-1000 uppercase">
-							<Link href="/" aria-label="Company">
-								Luxury Only
-							</Link>
-						</p>
+					<div className="flex items-center mt-2">
+						<img className="w-12" src="/logo1.png" alt="" width="70" />
+						<div className="flex flex-col ml-2">
+							<p className="text-sm lg:text-lg font-bold tracking-wide text-gray-1000 uppercase">
+								<Link href="/" aria-label="Company">
+									Luxury Only
+								</Link>
+							</p>
+							<p className="text-sm">Cattery</p>
+						</div>
 					</div>
-					<div className="flex items-center text-gray-1000 md:hidden">
+					<div className="flex items-center text-sm text-gray-1000 md:hidden">
 						<FiPhone />
 						<p className="pl-2">(571) 201-6369</p>
 					</div>

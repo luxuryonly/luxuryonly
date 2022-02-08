@@ -14,7 +14,7 @@ export function HomeCarousel() {
 			dynamicHeight={true}
 		>
 			{photosForHomeAtBottom.map(url => (
-				<img src={url} key={Math.random()} />
+				<img src={url} key={url} alt="" />
 			))}
 		</Carousel>
 	);

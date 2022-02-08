@@ -22,7 +22,7 @@ const Home: NextPage = () => {
 				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
 					<MainCarousel />
 				</div>
-				<div className="md:w-1/2 lg:pl-28 md:pl-16 flex flex-col  items-center">
+				<div className="md:w-1/2 lg:pl-28 md:pl-16 flex flex-col items-center">
 					<img
 						className="xl:ml-8 w-3/4 hidden md:inline"
 						src="/fulllogo.webp"

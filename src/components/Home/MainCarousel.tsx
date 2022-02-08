@@ -13,7 +13,7 @@ export function MainCarousel() {
 			showIndicators={false}
 		>
 			{photosForMain.map(url => (
-				<img src={url} key={Math.random()} />
+				<img src={url} key={url} alt="" />
 			))}
 		</Carousel>
 	);

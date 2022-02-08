@@ -10,8 +10,8 @@ export const photosForHomeAtBottom = [
 ];
 
 export const photosForMain = [
-	'/Kittens/Portrait/kitten7.webp',
 	'/Kittens/Portrait/kitten11.webp',
+	'/Kittens/Portrait/kitten7.webp',
 	'/Kittens/Portrait/kitten4.webp',
 	'/Kittens/Portrait/kitten6.webp'
 ];
