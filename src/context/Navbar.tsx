@@ -19,7 +19,7 @@ export const Navbar = () => {
 							<h1 className="text-lg lg:text-2xl font-semibold font-logo tracking-wider text-gray-1000">
 								Luxury Only
 							</h1>
-							<h2 className="text-xs md:text-sm tracking-wider">Cattery</h2>
+							<h2 className="text-xs md:text-sm tracking-widest">Cattery</h2>
 						</div>
 					</div>
 					<Link href="tel:571-201-6369" passHref>
