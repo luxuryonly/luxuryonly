@@ -21,11 +21,11 @@ export const kingList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
+			'/Kings/talismanScottish/Talisman5.JPG',
 			'/Kings/talismanScottish/talisman1.JPG',
 			'/Kings/talismanScottish/Talisman2.JPG',
 			'/Kings/talismanScottish/Talisman3.JPG',
 			'/Kings/talismanScottish/talisman4.JPG',
-			'/Kings/talismanScottish/Talisman5.JPG',
 			'/Kings/talismanScottish/Talisman6.jpg',
 			'/Kings/talismanScottish/Talisman7.jpg'
 		]
@@ -38,8 +38,8 @@ export const kingList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Kings/philipRagdoll/Phillip1.jpg',
 			'/Kings/philipRagdoll/Phillip2.jpg',
+			'/Kings/philipRagdoll/Phillip1.jpg',
 			'/Kings/philipRagdoll/Phillip3.jpg',
 			'/Kings/philipRagdoll/Phillip4.jpg',
 			'/Kings/philipRagdoll/Phillip5.jpg',

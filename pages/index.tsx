@@ -40,9 +40,10 @@ const Home: NextPage = () => {
 					</p>
 				</div>
 			</section>
-
 			<section className="mb-28 mt-10">
-				<h2 className="text-center text-2xl">Our Specialty Breeds</h2>
+				<h2 className="text-4xl md:text-6xl font-logo text-center font-medium my-5">
+					Our Specialty Breeds
+				</h2>
 				<div className="flex flex-col basis-full justify-center md:items-stretch items-center md:flex-wrap md:flex-row">
 					<div className="nft-card">
 						<img
@@ -52,7 +53,7 @@ const Home: NextPage = () => {
 						/>
 						<div className="p-5">
 							<h5 className="breed-card-heading">British Shorthairs</h5>
-							<p className="p-4 text-gray-700">
+							<p className="p-4">
 								British Shorthair cats are an absolute joy to own. These
 								affectionate pets are ideal companions for families with
 								children and other pets due to their easy going nature, but they
@@ -72,7 +73,7 @@ const Home: NextPage = () => {
 						/>
 						<div className="p-5">
 							<h5 className="breed-card-heading">Scottish Folds</h5>
-							<p className="p-4 text-gray-700">
+							<p className="p-4">
 								The Scottish Fold is a sweet, charming breed. They are an easy
 								cat to live with and to care for. They are affectionate and are
 								comfortable with all members of their family. They are attentive
@@ -92,16 +93,15 @@ const Home: NextPage = () => {
 						/>
 						<div className="p-5">
 							<h5 className="breed-card-heading">Ragdolls</h5>
-							<p className="p-4 text-gray-700">
-								Ragdoll cats are social, happily spend time in the house of the
-								owner and rarely wander out on their own. They love being with
-								the owner, they yearn for attention and enjoy the company of
-								people. They love being embraced by people and often snuggle up
-								in their lap. They enjoy following their owners and doing what
-								they are doing. Not only do they like people, but they also like
-								other cats and other pets, including dogs. In fact, they even
-								like strangers! They are extremely accommodating and make an
-								obedient pet.
+							<p className="p-4">
+								Ragdoll cats are social and happily spend time in the house of
+								the owner and rarely wander out on their own. They love being
+								with the owner, they yearn for attention and enjoy the company
+								of people. They love being embraced by people and often snuggle
+								up in their lap. They enjoy following their owners and doing
+								what they are doing. Not only do they like people, but they also
+								like other cats and other pets, including dogs. In fact, they
+								even like strangers!
 							</p>
 						</div>
 					</div>

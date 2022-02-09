@@ -1,8 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Allura&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Playfair+Display:ital,wght@1,600&display=swap');
 
 * {
 	box-sizing: border-box;
@@ -11,9 +10,19 @@
 }
 
 body {
-	/* font-family: 'Allura', cursive; */
-	/* font-family: 'Playfair Display', serif;
-	font-weight: 400; */
+	@apply font-p;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	@apply font-heading;
+}
+
+p {
+	@apply font-p;
 }
 
 .link {
@@ -25,8 +34,10 @@ body {
 }
 
 .nav-item {
-	@apply text-gray-1000 hover:text-green-800 list-none
-	font-medium text-lg;
+	@apply block py-2 pr-4 pl-3 font-medium text-base lg:text-xl md:p-0
+	text-gray-700 border-b border-gray-100
+	hover:bg-gray-50 md:hover:bg-transparent
+	md:border-0 md:hover:text-blue-700;
 }
 
 .active-nav {
@@ -36,13 +47,17 @@ body {
 }
 
 .main-heading {
-	@apply text-3xl text-gray-1000 text-center font-bold my-12;
+	@apply text-5xl md:text-6xl font-logo text-center font-medium my-12;
 }
 
 .nft-card {
 	@apply m-8 md:m-6 md:max-w-sm rounded-3xl overflow-hidden
-	shadow-xl dark:shadow-2xl bg-beige-200;
+	shadow-2xl bg-beige-400;
 }
+
+/* .:hover {
+	transform: scale(1.05, 1.05);
+} */
 
 /* Home */
 

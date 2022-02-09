@@ -5,19 +5,19 @@ import { FiPhone, FiChevronDown } from 'react-icons/fi';
 
 export const Navbar = () => {
 	return (
-		<header className="bg-beige-200">
+		<header>
 			<div className="background-diagonal"></div>
-			<nav className="px-2 border-gray-200">
+			<nav className="px-2 border-gray-200 md:pt-2">
 				<div className="container flex flex-wrap justify-between items-center mx-auto">
 					<div className="flex items-center mt-2">
 						<img className="w-12" src="/logo1.png" alt="" width="70" />
 						<div className="flex flex-col ml-2">
-							<h1 className="text-xs lg:text-lg font-bold tracking-wide text-gray-1000 uppercase">
+							<h1 className="text-sm lg:text-xl font-semibold font-logo tracking-wider text-gray-1000">
 								<Link href="/" aria-label="Company">
 									Luxury Only
 								</Link>
 							</h1>
-							<h2 className="text-xs md:text-sm">Cattery</h2>
+							<h2 className="text-xs md:text-sm tracking-wider">Cattery</h2>
 						</div>
 					</div>
 					<div className="flex items-center text-sm text-gray-1000 md:hidden">
@@ -61,23 +61,17 @@ export const Navbar = () => {
 					</button>
 					<div className="hidden w-full md:block md:w-auto" id="mobile-menu">
 						<ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm lg:text-lg md:font-medium">
-							<li
-								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
-									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
-							>
+							<li className="nav-item">
 								<Link href="/">Home</Link>
 							</li>
-							<li
-								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
-									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
-							>
+							<li className="nav-item">
 								<Link href="/about">About</Link>
 							</li>
 							<li>
 								<button
 									id="dropdownNavbarLink"
 									data-dropdown-toggle="dropdownNavbar"
-									className="flex justify-between items-center py-2 pr-4 pl-3 w-full text-gray-700 border-b border-gray-100 hover:bg-gray-50
+									className="flex text-base lg:text-xl justify-between items-center py-2 pr-4 pl-3 w-full text-gray-700 border-b border-gray-100 hover:bg-gray-50
 									md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto md:font-medium"
 								>
 									Our Cats{' '}
@@ -100,55 +94,52 @@ export const Navbar = () => {
 									className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
 								>
 									<ul className="py-1" aria-labelledby="dropdownLargeButton">
-										<li
-											className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
-											// className={
-											// 	path === '/adopt' ? 'active-nav' : 'nav-item'
-											// }
-										>
-											<Link href="/kittens">Kittens</Link>
-										</li>
+										<Link href="/kittens" passHref>
+											<li
+												className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+												// className={
+												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
+												// }
+											>
+												Kittens
+											</li>
+										</Link>
 
-										<li
-											className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
-											// className={
-											// 	path === '/adopt' ? 'active-nav' : 'nav-item'
-											// }
-										>
-											<Link href="/queens">Queens</Link>
-										</li>
-										<li
-											className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
-											// className={
-											// 	path === '/adopt' ? 'active-nav' : 'nav-item'
-											// }
-										>
-											<Link href="/kings">Kings</Link>
-										</li>
+										<Link href="/queens" passHref>
+											<li
+												className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+												// className={
+												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
+												// }
+											>
+												Queens
+											</li>
+										</Link>
+										<Link href="/kings" passHref>
+											<li
+												className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-500"
+												// className={
+												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
+												// }
+											>
+												Kings
+											</li>
+										</Link>
 									</ul>
 								</div>
 							</li>
-							<li
-								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
-									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
-							>
+							<li className="nav-item">
 								<Link href="/adopt">Adopt</Link>
 							</li>
-							<li
-								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
-									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
-							>
+							<li className="nav-item">
 								<Link href="/faq">FAQ</Link>
 							</li>
-							<li
-								className="block py-2 pr-4 pl-3 md:p-0 text-gray-700 border-b border-gray-100
-									hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700"
-							>
+							<li className="nav-item">
 								<Link href="/contact">Contact</Link>
 							</li>
 						</ul>
 					</div>
-					<div className="md:flex font-medium items-center text-gray-1000 hidden">
+					<div className="md:flex text-xl font-medium items-center text-gray-1000 hidden">
 						<FiPhone />
 						<p className="pl-1">(571) 201-6369</p>
 					</div>

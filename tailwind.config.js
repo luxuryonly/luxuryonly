@@ -9,10 +9,18 @@ module.exports = {
 			fontSize: {
 				xxs: '0.55rem'
 			},
+			fontFamily: {
+				logo: ['Allura', 'cursive'],
+				heading: ['Playfair Display', 'serif'],
+				p: ['Alice', 'serif']
+			},
 			colors: {
 				beige: {
 					100: '#F4ECE6',
-					200: '#e7dacf'
+					200: '#e7dacf',
+					300: '#bfafa0',
+					400: '#d2c1b1',
+					500: '#D1B9A5'
 				},
 				gray: { 1000: '#373333' }
 			},

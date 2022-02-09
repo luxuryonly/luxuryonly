@@ -14,11 +14,11 @@ const Queens: NextPage = () => {
 		<section>
 			<h1 className="main-heading">Queens</h1>
 
-			<div className="flex justify-center rounded-md shadow-sm" role="group">
+			<div className="flex justify-center rounded-md mb-12" role="group">
 				<button
 					type="button"
 					onClick={() => setCurrentPage('british')}
-					className={`py-3 px-5 text-sm font-medium text-gray-900
+					className={`py-3 px-5 text-md font-medium text-gray-900
 					bg-white rounded-l-lg border border-gray-200
 					hover:bg-gray-100 hover:text-blue-700 focus:z-10
 					focus:ring-2 focus:ring-blue-700 focus:text-blue-700
@@ -29,7 +29,7 @@ const Queens: NextPage = () => {
 				<button
 					type="button"
 					onClick={() => setCurrentPage('ragdoll')}
-					className={`py-3 px-5 text-sm font-medium text-gray-900
+					className={`py-3 px-5 text-md font-medium text-gray-900
 					bg-white border-t border-b border-gray-200 hover:bg-gray-100
 					hover:text-blue-700 focus:z-10 focus:ring-2
 					focus:ring-blue-700 focus:text-blue-700
@@ -40,7 +40,7 @@ const Queens: NextPage = () => {
 				<button
 					type="button"
 					onClick={() => setCurrentPage('scottish')}
-					className={`py-3 px-5 text-sm font-medium text-gray-900 bg-white
+					className={`py-3 px-5 text-md font-medium text-gray-900 bg-white
 					rounded-r-md border border-gray-200 hover:bg-gray-100
 					hover:text-blue-700 focus:z-10 focus:ring-2
 					focus:ring-blue-700 focus:text-blue-700
