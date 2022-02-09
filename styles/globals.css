@@ -36,13 +36,13 @@ p {
 .nav-item {
 	@apply block py-2 pr-4 pl-3 font-medium text-base lg:text-xl md:p-0
 	text-gray-700 border-b border-gray-100 md:border-0
-	hover:text-blue-700;
+	hover:text-beige-800;
 }
 
 .active-nav {
 	@apply block py-2 pr-4 pl-3 font-medium text-base lg:text-xl md:p-0
-	text-gray-700 border-b-2 sm:border-gray-700
-	hover:text-blue-700;
+	border-b-2 sm:border-beige-800 sm:hover:border-blue-700
+	hover:text-blue-700 text-beige-800;
 }
 
 .main-heading {
