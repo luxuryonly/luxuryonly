@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 
 const About: NextPage = () => {
 	return (
-		<section className="body-font">
+		<section className="body-font lg:py-10">
 			<h1 className="main-heading">About Us</h1>
 			<div className="container px-5 mx-auto flex flex-col">
 				<div className="lg:w-4/6 mx-auto">
@@ -63,9 +63,15 @@ const About: NextPage = () => {
 					</div>
 				</div>
 			</div>
-			<div>
-				<img src="/tica_logo.webp" alt="TICA logo" />
-				<p>Luxury Only is a proud registered member of TICA.</p>
+			<div className="mt-20">
+				<img className="w-80 mx-auto" src="/tica_logo.webp" alt="TICA logo" />
+				<p className="py-10 text-xl text-center">
+					Luxury Only is a proud registered member of TICA.
+				</p>
+				<div className="flex justify-center">
+					<div className="bg-beige-500 w-60 h-96"></div>
+					<div className="bg-beige-500 w-60 h-96"></div>
+				</div>
 			</div>
 		</section>
 	);

@@ -50,7 +50,7 @@ const Home: NextPage = () => {
 						/>
 						<div className="p-5">
 							<h5 className="breed-card-heading">British Shorthairs</h5>
-							<p className="p-4">
+							<p className="p-4 leading-relaxed">
 								British Shorthair cats are an absolute joy to own. These
 								affectionate pets are ideal companions for families with
 								children and other pets due to their easy going nature, but they
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
 						/>
 						<div className="p-5">
 							<h5 className="breed-card-heading">Scottish Folds</h5>
-							<p className="p-4">
+							<p className="p-4 leading-relaxed">
 								The Scottish Fold is a sweet, charming breed. They are an easy
 								cat to live with and to care for. They are affectionate and are
 								comfortable with all members of their family. They are attentive
@@ -90,7 +90,7 @@ const Home: NextPage = () => {
 						/>
 						<div className="p-5">
 							<h5 className="breed-card-heading">Ragdolls</h5>
-							<p className="p-4">
+							<p className="p-4 leading-relaxed">
 								Ragdoll cats are social and happily spend time in the house of
 								the owner and rarely wander out on their own. They love being
 								with the owner, they yearn for attention and enjoy the company

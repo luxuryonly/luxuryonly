@@ -1,11 +1,12 @@
 import type { NextPage } from 'next';
+import Link from 'next/link';
 import { ReactNode, useState } from 'react';
 
 const Item = ({ title, children }: { title: string; children: ReactNode }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="border rounded shadow-sm">
+		<div className="border rounded shadow-sm bg-beige-100">
 			<button
 				type="button"
 				aria-label="Open item"
@@ -13,7 +14,7 @@ const Item = ({ title, children }: { title: string; children: ReactNode }) => {
 				className="flex items-center justify-between w-full p-4 focus:outline-none"
 				onClick={() => setIsOpen(!isOpen)}
 			>
-				<p className="text-lg font-medium">{title}</p>
+				<p className="text-lg font-medium leading-relaxed">{title}</p>
 				<div className="flex items-center justify-center w-8 h-8 border rounded-full">
 					<svg
 						viewBox="0 0 24 24"
@@ -45,15 +46,18 @@ const Item = ({ title, children }: { title: string; children: ReactNode }) => {
 const Faq: NextPage = () => {
 	return (
 		<>
-			<div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+			<div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
 				<div className="max-w-xl sm:mx-auto lg:max-w-2xl">
 					<div className="flex flex-col mb-16 sm:text-center">
 						<div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl">
 							<h1 className="main-heading">Frequently Asked Questions</h1>
 							<p className="text-base text-gray-700 md:text-lg">
 								We have listed the most popular questions, but if you don&apos;t
-								find the question you are looking for, please contact us (571)
-								201-6369 and we will get back to you as soon as possible.
+								find the question you are looking for, please contact us{' '}
+								<span className="text-blue-500 font-medium">
+									<Link href="tel:202-270-9502">(571) 201-6369</Link>
+								</span>{' '}
+								and we will get back to you as soon as possible.
 							</p>
 						</div>
 					</div>
@@ -92,8 +96,9 @@ const Faq: NextPage = () => {
 						</Item>
 						<Item title="What vaccines will my kitten come with?">
 							Breeding healthy kittens is our #1 priority above anything else.
-							We take this very seriously.
 							<br />
+							We take this very seriously.
+							<br /> <br />
 							Every kitten comes with:
 							<ol>
 								<li>1. 2 rounds of deworming</li>

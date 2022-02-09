@@ -1,13 +1,5 @@
 export const scottishQueenList = [
 	{
-		name: 'Yasemin',
-		birthday: 'September 15, 2018',
-		color: 'AS-11/33 (Blue Silver Shaded Pointed)',
-		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
-		images: ['/Queens/scottish/yasmin/yasmin0.webp']
-	},
-	{
 		name: 'Kimi',
 		birthday: 'June 22, 2019',
 		color: 'NY-25 (Black Golden Ticked)',
@@ -43,5 +35,13 @@ export const scottishQueenList = [
 			'/Queens/scottish/zefira/zefira2.webp',
 			'/Queens/scottish/zefira/zefira0.webp'
 		]
+	},
+	{
+		name: 'Yasemin',
+		birthday: 'September 15, 2018',
+		color: 'AS-11/33 (Blue Silver Shaded Pointed)',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
+		images: ['/Queens/scottish/yasmin/yasmin0.webp']
 	}
 ];

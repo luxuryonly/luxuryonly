@@ -5,7 +5,7 @@ import { mainKittens } from 'src/components/Cats/Kittens/kittenPhotos';
 
 const Kittens: NextPage = () => {
 	return (
-		<section>
+		<section className="lg:py-10">
 			<h1 className="main-heading">Kittens</h1>
 			<p className="max-w-xl text-center mx-auto mb-8 sm:mb-10 px-5 text-base text-gray-700 md:text-lg">
 				All our gorgeous kittens below are from past or current liters. <br />

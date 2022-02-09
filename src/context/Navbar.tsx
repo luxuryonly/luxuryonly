@@ -13,7 +13,12 @@ export const Navbar = () => {
 				<div className="container flex flex-wrap justify-between items-center mx-auto">
 					<div className="flex items-center mt-2">
 						<Link href="/" aria-label="Company" passHref>
-							<img className="w-12" src="/logo.webp" alt="" width="70" />
+							<img
+								className="cursor-pointer w-12"
+								src="/logo.webp"
+								alt=""
+								width="70"
+							/>
 						</Link>
 						<div className="flex flex-col ml-2">
 							<h1 className="text-lg lg:text-2xl font-semibold font-logo tracking-wider text-gray-1000">
@@ -23,7 +28,7 @@ export const Navbar = () => {
 						</div>
 					</div>
 					<Link href="tel:571-201-6369" passHref>
-						<div className="flex items-center text-sm text-gray-1000 md:hidden">
+						<div className="cursor-pointer flex items-center text-sm text-gray-1000 md:hidden">
 							<FiPhone />
 							<p className="pl-2 text-lg">(571) 201-6369</p>
 						</div>
@@ -160,7 +165,7 @@ export const Navbar = () => {
 						</ul>
 					</div>
 					<Link href="tel:571-201-6369" passHref>
-						<div className="md:flex text-xl font-medium items-center text-gray-1000 hidden">
+						<div className="cursor-pointer md:flex text-xl font-medium items-center text-gray-1000 hidden">
 							<FiPhone />
 							<p className="pl-1">(571) 201-6369</p>
 						</div>

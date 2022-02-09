@@ -11,7 +11,7 @@ const Queens: NextPage = () => {
 	const [currentPage, setCurrentPage] = useState<QueensBreed>('british');
 
 	return (
-		<section>
+		<section className="lg:py-10">
 			<h1 className="main-heading">Queens</h1>
 
 			<div className="flex justify-center rounded-md mb-12" role="group">

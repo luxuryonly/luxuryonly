@@ -4,7 +4,7 @@ import { kingList } from 'src/components/Cats/Kings/kingList';
 
 const Kings: NextPage = () => {
 	return (
-		<section className="max-w-6xl mx-auto">
+		<section className="max-w-6xl mx-auto lg:py-10">
 			<h1 className="main-heading">Kings</h1>
 			{kingList.map(
 				({ name, birthday, description, images, breed, color }, index) => (

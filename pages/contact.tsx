@@ -4,7 +4,7 @@ import { FiPhone } from 'react-icons/fi';
 
 const Contact: NextPage = () => {
 	return (
-		<section className="body-font relative">
+		<section className="body-font relative lg:py-10">
 			<div className="container px-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-12">
 					<h1 className="text-5xl md:text-6xl font-logo text-center font-medium mt-12 mb-5">

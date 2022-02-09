@@ -7,7 +7,7 @@ export const Footer = () => {
 			<div className="max-w-4xl mx-auto flex flex-wrap md:flex-nowrap justify-around md:justify-between">
 				<div className="mb-6 md:mb-0 flex flex-col items-center w-full md:w-max">
 					<img
-						className="xl:ml-8 w-3/4 w-24"
+						className="cursor-pointer xl:ml-8 w-3/4 w-24"
 						src="/logo.webp"
 						alt="LuxuryOnly Logo"
 					/>
@@ -31,7 +31,7 @@ export const Footer = () => {
 					<li className="footer-item">
 						<Link href="/adopt">Adopt</Link>
 					</li>
-					<li>
+					<li className="footer-item">
 						<Link href="/faq">FAQ</Link>
 					</li>
 					<li className="footer-item">
@@ -41,7 +41,7 @@ export const Footer = () => {
 				<div>
 					<p className="w-60 mb-2">For any questions, please call us!</p>
 					<Link href="tel:571-201-6369" passHref>
-						<div className="flex mb-2 items-center font-medium text-lg">
+						<div className="cursor-pointer flex mb-2 items-center font-medium text-lg">
 							<FiPhone />
 							<p className="pl-2">(571) 201-6369</p>
 						</div>
@@ -55,12 +55,13 @@ export const Footer = () => {
 				</div>
 			</div>
 			<hr className="border-gray-200 sm:mx-auto my-6" />
-			<p className="text-center text-blue-600">
+			<p className="text-center text-lg text-blue-600">
 				<Link href="#">Back to Top</Link>
 			</p>
 			<p className="flex items-center justify-center text-center text-sm text-gray-500 mt-1">
 				© 2022 Luxury Only Cattery™. All Rights Reserved.
 			</p>
+			<p className="text-center text-sm text-gray-500 mt-1">Made with Love.♥</p>
 		</footer>
 	);
 };
