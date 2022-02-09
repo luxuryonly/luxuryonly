@@ -8,8 +8,8 @@ const Kittens: NextPage = () => {
 		<section>
 			<h1 className="main-heading">Kittens</h1>
 			<p className="max-w-xl text-center mx-auto mb-8 sm:mb-10 px-5 text-base text-gray-700 md:text-lg">
-				All our gorgeous kittens below are from past or current liters. To know
-				exactly what kittens we have available, please call us at{' '}
+				All our gorgeous kittens below are from past or current liters. <br />
+				To know exactly what kittens we have available, please call us at{' '}
 				<span className="text-blue-600">
 					<Link href="tel:571-201-6369">(571) 201-6369</Link>
 				</span>

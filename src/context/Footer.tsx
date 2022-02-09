@@ -3,7 +3,7 @@ import { FiPhone } from 'react-icons/fi';
 
 export const Footer = () => {
 	return (
-		<footer className="py-8 mt-14 bg-beige-200 md:p-8">
+		<footer className="py-8 mt-14 bg-beige-200 md:p-8 border-t border-beige-700">
 			<div className="max-w-4xl mx-auto flex flex-wrap md:flex-nowrap justify-around md:justify-between">
 				<div className="mb-6 md:mb-0 flex flex-col items-center w-full md:w-max">
 					<img
@@ -16,39 +16,42 @@ export const Footer = () => {
 					</h4>
 				</div>
 				<ul>
-					<li>
+					<li className="footer-item">
 						<Link href="/about">About Us</Link>
 					</li>
-					<li>
+					<li className="footer-item">
 						<Link href="/kittens">Kittens</Link>
 					</li>
-					<li>
+					<li className="footer-item">
 						<Link href="/queens">Queens</Link>
 					</li>
-					<li>
+					<li className="footer-item">
 						<Link href="/kings">Kings</Link>
 					</li>
-					<li>
+					<li className="footer-item">
 						<Link href="/adopt">Adopt</Link>
 					</li>
 					<li>
+						<Link href="/faq">FAQ</Link>
+					</li>
+					<li className="footer-item">
 						<Link href="/contact">Contact</Link>
 					</li>
 				</ul>
 				<div>
-					<p className="mb-4">
-						<Link href="/faq">FAQ</Link>
-					</p>
+					<p className="w-60 mb-2">For any questions, please call us!</p>
 					<Link href="tel:571-201-6369" passHref>
-						<div className="flex items-center text-sm text-gray-1000">
+						<div className="flex mb-2 items-center font-medium text-lg">
 							<FiPhone />
-							<p className="pl-2 text-lg">(571) 201-6369</p>
+							<p className="pl-2">(571) 201-6369</p>
 						</div>
 					</Link>
-					<p className="text-blue-500">
+					<p className="text-blue-500 mb-1">
 						<Link href="mailto:hripunov@gmail.com">hripunov@gmail.com</Link>
 					</p>
-					<p className="leading-normal mb-5">North Bethesda, Maryland</p>
+					<p className="font-medium lg:text-lg leading-normal mb-5">
+						North Bethesda, Maryland
+					</p>
 				</div>
 			</div>
 			<hr className="border-gray-200 sm:mx-auto my-6" />

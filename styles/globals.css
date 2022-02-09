@@ -45,6 +45,10 @@ p {
 	hover:text-blue-700 text-beige-800;
 }
 
+.footer-item {
+	@apply font-medium lg:text-lg mb-1 hover:text-beige-800;
+}
+
 .main-heading {
 	@apply text-5xl md:text-6xl font-logo text-center font-medium my-12;
 }
@@ -75,4 +79,18 @@ p {
 	height: 100vh;
 	width: 100vw;
 	background: linear-gradient(160deg, #e7dacf 50%, white 50%);
+}
+
+/* Contact */
+
+.input-label {
+	@apply leading-7 text-sm ml-1 text-gray-600;
+}
+
+.input-field {
+	@apply w-full bg-beige-100 rounded-lg border
+	border-gray-300 focus:border-blue-500 focus:bg-white
+	focus:ring-2 focus:ring-blue-200 text-base outline-none
+	text-gray-700 py-1 px-3 leading-8 transition-colors
+	duration-200 ease-in-out;
 }

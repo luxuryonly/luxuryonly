@@ -12,6 +12,8 @@ const Contact: NextPage = () => {
 					</h1>
 					<p className="lg:w-2/3 mx-auto leading-relaxed text-base">
 						We are here to answer all of your questions!
+						<br />
+						The best way to get immediate answers is by calling us!
 					</p>
 				</div>
 				<form
@@ -22,14 +24,11 @@ const Contact: NextPage = () => {
 					<div className="flex flex-wrap -m-2">
 						<div className="p-2 w-1/2">
 							<div className="relative">
-								<label
-									htmlFor="name"
-									className="leading-7 text-sm text-gray-600"
-								>
+								<label htmlFor="name" className="input-label">
 									Name
 								</label>
 								<input
-									className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+									className="input-field"
 									type="text"
 									id="name"
 									name="name"
@@ -39,14 +38,11 @@ const Contact: NextPage = () => {
 						</div>
 						<div className="p-2 w-1/2">
 							<div className="relative">
-								<label
-									htmlFor="email"
-									className="leading-7 text-sm text-gray-600"
-								>
+								<label htmlFor="email" className="input-label">
 									Email
 								</label>
 								<input
-									className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+									className="input-field"
 									type="email"
 									id="email"
 									name="email"
@@ -56,14 +52,11 @@ const Contact: NextPage = () => {
 						</div>
 						<div className="p-2 w-full">
 							<div className="relative">
-								<label
-									htmlFor="telephone"
-									className="leading-7 text-sm text-gray-600"
-								>
+								<label htmlFor="telephone" className="input-label">
 									Phone Number
 								</label>
 								<input
-									className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+									className="input-field"
 									type="tel"
 									name="telephone"
 									id="telephone"
@@ -74,16 +67,18 @@ const Contact: NextPage = () => {
 						</div>
 						<div className="p-2 w-full">
 							<div className="relative">
-								<label
-									htmlFor="message"
-									className="leading-7 text-sm text-gray-600"
-								>
+								<label htmlFor="message" className="input-label">
 									Message
 								</label>
 								<textarea
-									className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-blue-500 focus:bg-white focus:ring-2 focus:ring-blue-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+									className="w-full bg-beige-100 rounded-lg border
+									border-gray-300 focus:border-blue-500 focus:bg-white
+									focus:ring-2 focus:ring-blue-200 h-32 text-base
+									outline-none text-gray-700 py-1 px-3 resize-none
+									leading-6 transition-colors duration-200 ease-in-out"
 									id="message"
 									name="message"
+									placeholder="What would you like to know?"
 								></textarea>
 							</div>
 						</div>
@@ -92,7 +87,7 @@ const Contact: NextPage = () => {
 								Submit Form
 							</button>
 						</div>
-						<div className="flex flex-col justify-center items-center p-2 w-full pt-8 mt-8 border-t border-gray-200 text-center">
+						<div className="flex flex-col justify-center items-center p-2 w-full pt-8 mt-8 border-t border-beige-800 text-center">
 							<h3 className="font-logo text-3xl font-medium mb-2">
 								Luxury Only Cattery
 							</h3>

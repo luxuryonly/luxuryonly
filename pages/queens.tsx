@@ -24,7 +24,7 @@ const Queens: NextPage = () => {
 					focus:ring-beige-600 focus:text-beige-600
 					${currentPage === 'british' && 'bg-beige-500 border-beige-600'}`}
 				>
-					British Shorthair
+					British Shorthairs
 				</button>
 				<button
 					type="button"
@@ -38,7 +38,7 @@ const Queens: NextPage = () => {
 						'bg-beige-500 border-beige-600 border-l border-r'
 					}`}
 				>
-					Ragdoll
+					Ragdolls
 				</button>
 				<button
 					type="button"
@@ -49,7 +49,7 @@ const Queens: NextPage = () => {
 					focus:ring-beige-600 focus:text-beige-600
 					${currentPage === 'scottish' && 'bg-beige-500 border-beige-600'}`}
 				>
-					Scottish Fold
+					Scottish Folds
 				</button>
 			</div>
 
