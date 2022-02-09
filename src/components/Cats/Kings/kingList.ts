@@ -39,10 +39,10 @@ export const kingList = [
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
 			'/Kings/philipRagdoll/Phillip2.jpg',
+			'/Kings/philipRagdoll/Phillip5.jpg',
 			'/Kings/philipRagdoll/Phillip1.jpg',
 			'/Kings/philipRagdoll/Phillip3.jpg',
 			'/Kings/philipRagdoll/Phillip4.jpg',
-			'/Kings/philipRagdoll/Phillip5.jpg',
 			'/Kings/philipRagdoll/Phillip6.jpg',
 			'/Kings/philipRagdoll/Phillip7.jpg',
 			'/Kings/philipRagdoll/Phillip8.jpg',

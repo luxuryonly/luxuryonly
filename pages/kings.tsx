@@ -9,9 +9,9 @@ const Kings: NextPage = () => {
 			{kingList.map(
 				({ name, birthday, description, images, breed, color }, index) => (
 					<div
-						className={`container mx-auto flex flex-col px-5 rounded-2xl
-						sm:p-10 sm:mb-14 py-8 mb-10 items-center md:items-start shadow-2xl border border-gray-30
-						${
+						className={`container sm:mx-auto flex flex-col px-5 rounded-2xl
+						py-8 sm:p-10 mb-10 sm:mb-14 items-center md:items-start shadow-2xl
+						text-gray-600 ${
 							index % 2 === 0
 								? 'md:flex-row bg-beige-400'
 								: 'md:flex-row-reverse bg-beige-100'
@@ -23,7 +23,7 @@ const Kings: NextPage = () => {
 								md:justify-start md:text-left mb-16 md:mb-0 md:mt-7 items-center text-center
 								${index % 2 === 0 ? 'lg:pr-24 md:pr-16' : 'lg:pl-24 md:pl-16'}`}
 						>
-							<h3 className="title-font sm:text-4xl text-3xl mb-3 font-medium">
+							<h3 className="title-font sm:text-4xl text-3xl mb-3 font-medium text-beige-600">
 								{name}
 							</h3>
 							<h4 className="title-font sm:text-2xl text-xl my-2 font-medium">

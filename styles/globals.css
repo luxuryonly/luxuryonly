@@ -51,7 +51,7 @@ p {
 }
 
 .nft-card {
-	@apply m-8 md:m-6 md:max-w-sm rounded-3xl overflow-hidden
+	@apply m-4 md:m-6 md:max-w-sm rounded-3xl overflow-hidden
 	shadow-2xl bg-beige-400;
 }
 
@@ -62,8 +62,8 @@ p {
 /* Home */
 
 .breed-card-heading {
-	@apply text-xl text-center font-semibold md:my-2
-	tracking-tight text-gray-900 md:text-2xl md:font-bold;
+	@apply text-xl text-center font-bold md:my-2 text-beige-600
+	tracking-tight md:text-2xl md:font-bold;
 }
 
 .breed-card-img {

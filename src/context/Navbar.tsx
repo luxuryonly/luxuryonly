@@ -12,7 +12,7 @@ export const Navbar = () => {
 					<div className="flex items-center mt-2">
 						<img className="w-12" src="/logo1.png" alt="" width="70" />
 						<div className="flex flex-col ml-2">
-							<h1 className="text-sm lg:text-xl font-semibold font-logo tracking-wider text-gray-1000">
+							<h1 className="text-lg lg:text-2xl font-semibold font-logo tracking-wider text-gray-1000">
 								<Link href="/" aria-label="Company">
 									Luxury Only
 								</Link>
@@ -22,7 +22,7 @@ export const Navbar = () => {
 					</div>
 					<div className="flex items-center text-sm text-gray-1000 md:hidden">
 						<FiPhone />
-						<p className="pl-2">(571) 201-6369</p>
+						<p className="pl-2 text-lg">(571) 201-6369</p>
 					</div>
 
 					<button
@@ -60,7 +60,10 @@ export const Navbar = () => {
 						</svg>
 					</button>
 					<div className="hidden w-full md:block md:w-auto" id="mobile-menu">
-						<ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm lg:text-lg md:font-medium">
+						<ul
+							className="flex flex-col mt-4 md:flex-row md:space-x-8
+						md:mt-0 md:text-sm lg:text-lg md:font-medium"
+						>
 							<li className="nav-item">
 								<Link href="/">Home</Link>
 							</li>
@@ -71,8 +74,11 @@ export const Navbar = () => {
 								<button
 									id="dropdownNavbarLink"
 									data-dropdown-toggle="dropdownNavbar"
-									className="flex text-base lg:text-xl justify-between items-center py-2 pr-4 pl-3 w-full text-gray-700 border-b border-gray-100 hover:bg-gray-50
-									md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto md:font-medium"
+									className="flex text-base lg:text-xl justify-between
+									items-center py-2 pr-4 pl-3 w-full text-gray-700
+									border-b border-gray-100 hover:bg-gray-50
+									md:hover:bg-transparent md:border-0 md:hover:text-blue-700
+									md:p-0 md:w-auto md:font-medium"
 								>
 									Our Cats{' '}
 									<svg
@@ -91,12 +97,14 @@ export const Navbar = () => {
 
 								<div
 									id="dropdownNavbar"
-									className="hidden z-10 w-44 text-base list-none bg-white rounded divide-y divide-gray-100 shadow"
+									className="hidden z-10 w-44 text-base list-none bg-white
+									rounded divide-y divide-gray-100 shadow"
 								>
 									<ul className="py-1" aria-labelledby="dropdownLargeButton">
 										<Link href="/kittens" passHref>
 											<li
-												className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+												className="block py-2 px-4 text-sm text-gray-700
+												hover:bg-gray-100"
 												// className={
 												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
 												// }
@@ -107,7 +115,8 @@ export const Navbar = () => {
 
 										<Link href="/queens" passHref>
 											<li
-												className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100"
+												className="block py-2 px-4 text-sm text-gray-700
+												hover:bg-gray-100"
 												// className={
 												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
 												// }
@@ -117,7 +126,8 @@ export const Navbar = () => {
 										</Link>
 										<Link href="/kings" passHref>
 											<li
-												className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-500"
+												className="block py-2 px-4 text-sm text-gray-700
+												hover:bg-gray-500"
 												// className={
 												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
 												// }

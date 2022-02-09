@@ -17,17 +17,21 @@ export const QueenCat = ({ catList }: Props) => {
 				{catList.map(
 					({ name, birthday, description, images, color }, index) => (
 						<div
-							className={`container mx-auto flex flex-col px-5 rounded-2xl
+							className={`container sm:mx-auto flex flex-col px-5 rounded-2xl
 								sm:p-10 py-8 mb-10 sm:mb-14 items-center md:items-start shadow-2xl
-								${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse bg-beige-100'}`}
+								${
+									index % 2 === 0
+										? 'md:flex-row bg-beige-400'
+										: 'md:flex-row-reverse bg-beige-100'
+								}`}
 							key={Math.random()}
 						>
 							<div
 								className={`lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start
-									md:justify-start md:text-left mb-16 md:mb-0 md:mt-7 items-center text-center
+									md:justify-start md:text-left mb-8 md:mb-0 md:mt-7 items-center text-center
 									${index % 2 === 0 ? 'lg:pr-24 md:pr-16' : 'lg:pl-24 md:pl-16'}`}
 							>
-								<h3 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
+								<h3 className="title-font text-beige-600 sm:text-4xl text-3xl mb-4 font-medium">
 									{name}
 								</h3>
 								<p className="title-font sm:text-xl text-lg my-1 font-medium">
