@@ -6,9 +6,6 @@ import { MainCarousel } from 'src/components/Home/MainCarousel';
 const Home: NextPage = () => {
 	return (
 		<>
-			<Head>
-				<link rel="icon" href="/favicon.ico" />
-			</Head>
 			<section
 				className="container mx-auto flex px-5 md:pb-24
 				md:pt-16 md:flex-row flex-col

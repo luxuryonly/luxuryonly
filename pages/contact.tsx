@@ -5,7 +5,7 @@ import { FiPhone } from 'react-icons/fi';
 const Contact: NextPage = () => {
 	return (
 		<section className="body-font relative">
-			<div className="container px-5 py-24 mx-auto">
+			<div className="container px-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-12">
 					<h1 className="text-5xl md:text-6xl font-logo text-center font-medium mt-12 mb-5">
 						Contact Us
@@ -67,7 +67,7 @@ const Contact: NextPage = () => {
 									type="tel"
 									name="telephone"
 									id="telephone"
-									pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+									pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
 									required={true}
 								/>
 							</div>

@@ -2,18 +2,22 @@ import type { NextPage } from 'next';
 
 const About: NextPage = () => {
 	return (
-		<section className="text-gray-600 body-font">
-			<div>
-				<img src="/tica_logo.webp" alt="TICA logo" />
-				<p>Luxury Only is a proud registered member of TICA.</p>
-			</div>
-			<div className="container px-5 py-24 mx-auto flex flex-col">
+		<section className="body-font">
+			<h1 className="main-heading">About Us</h1>
+			<div className="container px-5 mx-auto flex flex-col">
 				<div className="lg:w-4/6 mx-auto">
-					<div className="rounded-lg h-64 overflow-hidden">
+					<div className="rounded-lg h-96 overflow-hidden sm:block hidden">
 						<img
 							alt="content"
 							className="object-cover object-center h-full w-full"
-							src="https://dummyimage.com/1200x500"
+							src="/Kittens/Landscape/kitten1.webp"
+						/>
+					</div>
+					<div className="rounded-lg h-96 overflow-hidden sm:hidden">
+						<img
+							alt="content"
+							className="object-cover object-center h-full w-full"
+							src="/Kittens/Landscape/kitten3.webp"
 						/>
 					</div>
 					<div className="flex flex-col sm:flex-row mt-10">
@@ -36,7 +40,7 @@ const About: NextPage = () => {
 								<h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
 									Elena Maximova
 								</h2>
-								<div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+								<div className="w-12 h-1 bg-beige-800 rounded mt-2 mb-4"></div>
 								<p className="text-base">
 									Raclette knausgaard hella meggs normcore williamsburg enamel
 									pin sartorial venmo tbh hot chicken gentrify portland.
@@ -55,23 +59,13 @@ const About: NextPage = () => {
 								disrupt butcher paleo intelligentsia pabst before they sold out
 								four loko. 3 wolf moon brooklyn.
 							</p>
-							<a className="text-indigo-500 inline-flex items-center">
-								Learn More
-								<svg
-									fill="none"
-									stroke="currentColor"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									className="w-4 h-4 ml-2"
-									viewBox="0 0 24 24"
-								>
-									<path d="M5 12h14M12 5l7 7-7 7"></path>
-								</svg>
-							</a>
 						</div>
 					</div>
 				</div>
+			</div>
+			<div>
+				<img src="/tica_logo.webp" alt="TICA logo" />
+				<p>Luxury Only is a proud registered member of TICA.</p>
 			</div>
 		</section>
 	);
