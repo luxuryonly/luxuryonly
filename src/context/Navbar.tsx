@@ -4,18 +4,20 @@ import { useRouter } from 'next/router';
 import { FiPhone, FiChevronDown } from 'react-icons/fi';
 
 export const Navbar = () => {
+	const { asPath: path } = useRouter();
+
 	return (
 		<header>
 			<div className="background-diagonal"></div>
 			<nav className="px-2 border-gray-200 md:pt-2">
 				<div className="container flex flex-wrap justify-between items-center mx-auto">
 					<div className="flex items-center mt-2">
-						<img className="w-12" src="/logo1.png" alt="" width="70" />
+						<Link href="/" aria-label="Company" passHref>
+							<img className="w-12" src="/logo.webp" alt="" width="70" />
+						</Link>
 						<div className="flex flex-col ml-2">
 							<h1 className="text-lg lg:text-2xl font-semibold font-logo tracking-wider text-gray-1000">
-								<Link href="/" aria-label="Company">
-									Luxury Only
-								</Link>
+								Luxury Only
 							</h1>
 							<h2 className="text-xs md:text-sm tracking-wider">Cattery</h2>
 						</div>
@@ -62,23 +64,29 @@ export const Navbar = () => {
 					<div className="hidden w-full md:block md:w-auto" id="mobile-menu">
 						<ul
 							className="flex flex-col mt-4 md:flex-row md:space-x-8
-						md:mt-0 md:text-sm lg:text-lg md:font-medium"
+						md:mt-0 md:text-sm lg:text-lg md:font-medium bg-white sm:bg-inherit"
 						>
-							<li className="nav-item">
+							<li className={path === '/' ? 'active-nav' : 'nav-item'}>
 								<Link href="/">Home</Link>
 							</li>
-							<li className="nav-item">
+							<li className={path === '/about' ? 'active-nav' : 'nav-item'}>
 								<Link href="/about">About</Link>
 							</li>
-							<li>
+							<li
+								className={
+									path === '/kittens' || path === '/queens' || path === '/kings'
+										? 'sm:border-b-2 sm:border-gray-700'
+										: ''
+								}
+							>
 								<button
 									id="dropdownNavbarLink"
 									data-dropdown-toggle="dropdownNavbar"
-									className="flex text-base lg:text-xl justify-between
+									className={`flex text-base lg:text-xl justify-between
 									items-center py-2 pr-4 pl-3 w-full text-gray-700
 									border-b border-gray-100 hover:bg-gray-50
 									md:hover:bg-transparent md:border-0 md:hover:text-blue-700
-									md:p-0 md:w-auto md:font-medium"
+									md:p-0 md:w-auto md:font-medium`}
 								>
 									Our Cats{' '}
 									<svg
@@ -100,14 +108,14 @@ export const Navbar = () => {
 									className="hidden z-10 w-44 text-base list-none bg-white
 									rounded divide-y divide-gray-100 shadow"
 								>
-									<ul className="py-1" aria-labelledby="dropdownLargeButton">
+									<ul
+										className="py-1 cursor-pointer"
+										aria-labelledby="dropdownLargeButton"
+									>
 										<Link href="/kittens" passHref>
 											<li
 												className="block py-2 px-4 text-sm text-gray-700
 												hover:bg-gray-100"
-												// className={
-												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
-												// }
 											>
 												Kittens
 											</li>
@@ -117,9 +125,6 @@ export const Navbar = () => {
 											<li
 												className="block py-2 px-4 text-sm text-gray-700
 												hover:bg-gray-100"
-												// className={
-												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
-												// }
 											>
 												Queens
 											</li>
@@ -127,10 +132,7 @@ export const Navbar = () => {
 										<Link href="/kings" passHref>
 											<li
 												className="block py-2 px-4 text-sm text-gray-700
-												hover:bg-gray-500"
-												// className={
-												// 	path === '/adopt' ? 'active-nav' : 'nav-item'
-												// }
+												hover:bg-gray-100"
 											>
 												Kings
 											</li>
@@ -138,13 +140,13 @@ export const Navbar = () => {
 									</ul>
 								</div>
 							</li>
-							<li className="nav-item">
+							<li className={path === '/adopt' ? 'active-nav' : 'nav-item'}>
 								<Link href="/adopt">Adopt</Link>
 							</li>
-							<li className="nav-item">
+							<li className={path === '/faq' ? 'active-nav' : 'nav-item'}>
 								<Link href="/faq">FAQ</Link>
 							</li>
-							<li className="nav-item">
+							<li className={path === '/contact' ? 'active-nav' : 'nav-item'}>
 								<Link href="/contact">Contact</Link>
 							</li>
 						</ul>

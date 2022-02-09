@@ -7,10 +7,10 @@ export const kingList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Kings/napleBritish/naple1.jpg',
-			'/Kings/napleBritish/naple2.jpg',
-			'/Kings/napleBritish/naple3.jpg',
-			'/Kings/napleBritish/naple4.jpg'
+			'/Kings/napleBritish/naple0.webp',
+			'/Kings/napleBritish/naple1.webp',
+			'/Kings/napleBritish/naple2.webp',
+			'/Kings/napleBritish/naple3.webp'
 		]
 	},
 	{
@@ -21,13 +21,13 @@ export const kingList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Kings/talismanScottish/Talisman5.JPG',
-			'/Kings/talismanScottish/talisman1.JPG',
-			'/Kings/talismanScottish/Talisman2.JPG',
-			'/Kings/talismanScottish/Talisman3.JPG',
-			'/Kings/talismanScottish/talisman4.JPG',
-			'/Kings/talismanScottish/Talisman6.jpg',
-			'/Kings/talismanScottish/Talisman7.jpg'
+			'/Kings/talismanScottish/talisman4.webp',
+			'/Kings/talismanScottish/talisman1.webp',
+			'/Kings/talismanScottish/talisman3.webp',
+			'/Kings/talismanScottish/talisman6.webp',
+			'/Kings/talismanScottish/talisman7.webp',
+			'/Kings/talismanScottish/talisman5.webp',
+			'/Kings/talismanScottish/talisman2.webp'
 		]
 	},
 	{
@@ -38,15 +38,15 @@ export const kingList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Kings/philipRagdoll/Phillip2.jpg',
-			'/Kings/philipRagdoll/Phillip5.jpg',
-			'/Kings/philipRagdoll/Phillip1.jpg',
-			'/Kings/philipRagdoll/Phillip3.jpg',
-			'/Kings/philipRagdoll/Phillip4.jpg',
-			'/Kings/philipRagdoll/Phillip6.jpg',
-			'/Kings/philipRagdoll/Phillip7.jpg',
-			'/Kings/philipRagdoll/Phillip8.jpg',
-			'/Kings/philipRagdoll/Phillip9.jpg'
+			'/Kings/philipRagdoll/philip2.webp',
+			'/Kings/philipRagdoll/philip1.webp',
+			'/Kings/philipRagdoll/philip5.webp',
+			'/Kings/philipRagdoll/philip3.webp',
+			'/Kings/philipRagdoll/philip4.webp',
+			'/Kings/philipRagdoll/philip6.webp',
+			'/Kings/philipRagdoll/philip0.webp',
+			'/Kings/philipRagdoll/philip7.webp',
+			'/Kings/philipRagdoll/philip8.webp'
 		]
 	}
 ];
