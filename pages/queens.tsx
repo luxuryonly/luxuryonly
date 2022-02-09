@@ -20,9 +20,9 @@ const Queens: NextPage = () => {
 					onClick={() => setCurrentPage('british')}
 					className={`py-3 px-5 text-sm sm:text-md font-medium text-beige-600
 					bg-white rounded-l-lg border border-gray-200
-					hover:bg-gray-100 hover:text-blue-700 focus:z-10
+					hover:bg-beige-400 hover:text-blue-700 focus:z-10
 					focus:ring-2 focus:ring-blue-700 focus:text-blue-700
-					${currentPage === 'british' && 'btn-active'}`}
+					${currentPage === 'british' && 'bg-beige-500'}`}
 				>
 					British Shorthair
 				</button>
@@ -30,10 +30,10 @@ const Queens: NextPage = () => {
 					type="button"
 					onClick={() => setCurrentPage('ragdoll')}
 					className={`py-3 px-5 text-sm sm:text-md font-medium text-beige-600
-					bg-white border-t border-b border-gray-200 hover:bg-gray-100
+					bg-white border-t border-b border-gray-200 hover:bg-beige-400
 					hover:text-blue-700 focus:z-10 focus:ring-2
 					focus:ring-blue-700 focus:text-blue-700
-					${currentPage === 'ragdoll' && 'btn-active'}`}
+					${currentPage === 'ragdoll' && 'bg-beige-500'}`}
 				>
 					Ragdoll
 				</button>
@@ -41,10 +41,10 @@ const Queens: NextPage = () => {
 					type="button"
 					onClick={() => setCurrentPage('scottish')}
 					className={`py-3 px-5 text-sm sm:text-md font-medium text-beige-600
-					bg-white rounded-r-md border border-gray-200 hover:bg-gray-100
+					bg-white rounded-r-md border border-gray-200 hover:bg-beige-400
 					hover:text-blue-700 focus:z-10 focus:ring-2
 					focus:ring-blue-700 focus:text-blue-700
-					${currentPage === 'scottish' && 'btn-active'}`}
+					${currentPage === 'scottish' && 'bg-beige-500'}`}
 				>
 					Scottish Fold
 				</button>

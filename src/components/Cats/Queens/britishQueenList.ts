@@ -5,7 +5,7 @@ export const britishQueenList = [
 		color: 'NY-12 (Black Golden Chinchilla)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
-		images: ['/Queens/british/safi/safi1.jpg']
+		images: ['/Queens/british/safi/safi0.webp']
 	},
 	{
 		name: 'Lucie',
@@ -14,8 +14,8 @@ export const britishQueenList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Queens/british/leslie/leslie2.jpg',
-			'/Queens/british/leslie/leslie1.jpg'
+			'/Queens/british/lucie/lucie1.webp',
+			'/Queens/british/lucie/lucie0.webp'
 		]
 	},
 	{
@@ -25,9 +25,9 @@ export const britishQueenList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Queens/british/darsi/Darsi1.jpg',
-			'/Queens/british/darsi/Darsi2.jpg',
-			'/Queens/british/darsi/Darsi4.jpg'
+			'/Queens/british/darsi/darsi0.webp',
+			'/Queens/british/darsi/darsi1.webp',
+			'/Queens/british/darsi/darsi2.webp'
 		]
 	}
 ];

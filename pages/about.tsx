@@ -4,7 +4,7 @@ const About: NextPage = () => {
 	return (
 		<section className="text-gray-600 body-font">
 			<div>
-				<img src="/tica_logo.png" alt="TICA logo" />
+				<img src="/tica_logo.webp" alt="TICA logo" />
 				<p>Luxury Only is a proud registered member of TICA.</p>
 			</div>
 			<div className="container px-5 py-24 mx-auto flex flex-col">
