@@ -6,7 +6,7 @@ import { MdOutlineLocationOn } from 'react-icons/md';
 
 export const Footer = () => {
 	return (
-		<footer className="py-8 mt-14 bg-beige-200 md:p-8 border-t border-beige-700">
+		<footer className="py-8 bg-beige-200 md:p-8 border-t border-beige-700">
 			<div className="max-w-4xl mx-auto flex flex-wrap md:flex-nowrap justify-around md:justify-between">
 				<div className="mb-6 md:mb-0 flex flex-col items-center w-full md:w-max">
 					<img
@@ -23,13 +23,13 @@ export const Footer = () => {
 						<Link href="/about">About Us</Link>
 					</li>
 					<li className="footer-item">
-						<Link href="/kittens">Kittens</Link>
+						<Link href="/kings">Kings</Link>
 					</li>
 					<li className="footer-item">
 						<Link href="/queens">Queens</Link>
 					</li>
 					<li className="footer-item">
-						<Link href="/kings">Kings</Link>
+						<Link href="/kittens">Kittens</Link>
 					</li>
 					<li className="footer-item">
 						<Link href="/adopt">Adopt</Link>
@@ -67,7 +67,7 @@ export const Footer = () => {
 						>
 							<div className="flex items-center mb-1">
 								<FaInstagram />
-								<p className="pl-1">@ScottishFoldLuxury</p>
+								<p className="pl-2 text-sm md:text-base">@ScottishFoldLuxury</p>
 							</div>
 						</a>
 						<a
@@ -77,7 +77,9 @@ export const Footer = () => {
 						>
 							<div className="flex items-center mb-1">
 								<FaInstagram />
-								<p className="pl-1">@RagdollKittensLuxury</p>
+								<p className="pl-2 text-sm md:text-base">
+									@RagdollKittensLuxury
+								</p>
 							</div>
 						</a>
 						<a
@@ -87,7 +89,7 @@ export const Footer = () => {
 						>
 							<div className="flex items-center mb-1">
 								<FaFacebookSquare />
-								<p className="pl-1">@ScottishFoldLuxury</p>
+								<p className="pl-2 text-sm md:text-base">@ScottishFoldLuxury</p>
 							</div>
 						</a>
 						<a
@@ -97,7 +99,7 @@ export const Footer = () => {
 						>
 							<div className="flex items-center mb-1">
 								<FaFacebookSquare />
-								<p className="pl-1">@RagdollsLuxury</p>
+								<p className="pl-2 text-sm md:text-base">@RagdollsLuxury</p>
 							</div>
 						</a>
 					</div>
@@ -105,7 +107,7 @@ export const Footer = () => {
 			</div>
 			<hr className="border-gray-200 sm:mx-auto my-6" />
 			<p className="text-center text-lg text-blue-600">
-				<Link href="#">Back to Top</Link>
+				<a href="#">Back to Top</a>
 			</p>
 			<p className="flex items-center justify-center text-center text-sm text-gray-500 mt-1">
 				© 2022 Luxury Only Cattery™. All Rights Reserved.

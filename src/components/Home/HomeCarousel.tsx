@@ -4,7 +4,7 @@ import { photosForHomeAtBottom } from './homeCarouselPhotos';
 export function HomeCarousel() {
 	return (
 		<Carousel
-			className="max-w-screen-lg text-center mx-auto"
+			className="max-w-screen-lg text-center mx-auto mb-12"
 			autoPlay={true}
 			centerMode={true}
 			infiniteLoop={true}

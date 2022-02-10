@@ -7,7 +7,7 @@ import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 
 const Contact: NextPage = () => {
 	return (
-		<section className="body-font relative lg:py-10">
+		<section className="body-font relative lg:py-10 mb-10">
 			<div className="container px-5 mx-auto">
 				<div className="flex flex-col text-center w-full mb-12">
 					<h1 className="text-5xl md:text-6xl font-logo text-center font-medium mt-12 mb-5">
@@ -125,7 +125,7 @@ const Contact: NextPage = () => {
 									>
 										<div className="flex justify-center sm:justify-start items-center mb-1">
 											<FaInstagram />
-											<p className="pl-1">@ScottishFoldLuxury</p>
+											<p className="pl-2">@ScottishFoldLuxury</p>
 										</div>
 									</a>
 									<a
@@ -135,7 +135,7 @@ const Contact: NextPage = () => {
 									>
 										<div className="flex justify-center sm:justify-start items-center mb-1">
 											<FaFacebookSquare />
-											<p className="pl-1">@ScottishFoldLuxury</p>
+											<p className="pl-2">@ScottishFoldLuxury</p>
 										</div>
 									</a>
 								</div>
@@ -147,7 +147,7 @@ const Contact: NextPage = () => {
 									>
 										<div className="flex justify-center sm:justify-start items-center mb-1">
 											<FaInstagram />
-											<p className="pl-1">@RagdollKittensLuxury</p>
+											<p className="pl-2">@RagdollKittensLuxury</p>
 										</div>
 									</a>
 									<a
@@ -157,7 +157,7 @@ const Contact: NextPage = () => {
 									>
 										<div className="flex justify-center sm:justify-start items-center mb-1">
 											<FaFacebookSquare />
-											<p className="pl-1">@RagdollsLuxury</p>
+											<p className="pl-2">@RagdollsLuxury</p>
 										</div>
 									</a>
 								</div>
