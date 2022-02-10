@@ -1,6 +1,9 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
 import { FiPhone } from 'react-icons/fi';
+import { HiOutlineMail } from 'react-icons/hi';
+import { MdOutlineLocationOn } from 'react-icons/md';
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 
 const Contact: NextPage = () => {
 	return (
@@ -91,37 +94,74 @@ const Contact: NextPage = () => {
 							<h3 className="font-logo text-3xl font-medium mb-2">
 								Luxury Only Cattery
 							</h3>
-							<Link href="tel:571-201-6369" passHref>
-								<div className="flex justify-center items-center text-sm text-gray-1000">
-									<FiPhone />
-									<p className="pl-2 text-lg">(571) 201-6369</p>
-								</div>
-							</Link>
-							<Link href="tel:202-270-9502" passHref>
-								<div className="mb-2 flex justify-center items-center text-sm text-gray-1000">
-									<FiPhone />
-									<p className="pl-2 text-lg">(202) 270-9502</p>
-								</div>
-							</Link>
-							<p className="text-blue-500">
-								<Link href="mailto:hripunov@gmail.com">hripunov@gmail.com</Link>
-							</p>
-							<p className="leading-normal mb-5">North Bethesda, Maryland</p>
 
-							<Link href="">
-								<svg
-									fill="none"
-									stroke="currentColor"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									className="w-5 h-5"
-									viewBox="0 0 24 24"
-								>
-									<rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-									<path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
-								</svg>
-							</Link>
+							<div className="leading-relaxed text-center flex flex-col justify-center items-center">
+								<p className="w-60 mb-2">For any questions, please call us!</p>
+								<Link href="tel:240-515-6701" passHref>
+									<div className="cursor-pointer flex mb-2 items-center font-medium lg:text-lg">
+										<FiPhone />
+										<p className="pl-2">(240) 515-6701</p>
+									</div>
+								</Link>
+								<div className="flex items-center mb-1 lg:text-lg">
+									<HiOutlineMail />
+									<p className="text-blue-500 pl-2">
+										<Link href="mailto:hripunov@gmail.com">
+											hripunov@gmail.com
+										</Link>
+									</p>
+								</div>
+								<div className="flex items-center font-medium lg:text-lg leading-normal mb-5">
+									<MdOutlineLocationOn />
+									<p className="pl-2">North Bethesda, Maryland</p>
+								</div>
+							</div>
+							<div className="flex flex-wrap justify-center cursor-pointer">
+								<div className="p-2 md:p-4">
+									<a
+										href="https://www.instagram.com/scottishfoldluxury"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="flex justify-center sm:justify-start items-center mb-1">
+											<FaInstagram />
+											<p className="pl-1">@ScottishFoldLuxury</p>
+										</div>
+									</a>
+									<a
+										href="https://www.facebook.com/scottishfoldluxury"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="flex justify-center sm:justify-start items-center mb-1">
+											<FaFacebookSquare />
+											<p className="pl-1">@ScottishFoldLuxury</p>
+										</div>
+									</a>
+								</div>
+								<div className="p-2 md:p-4">
+									<a
+										href="https://www.instagram.com/ragdollkittensluxury"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="flex justify-center sm:justify-start items-center mb-1">
+											<FaInstagram />
+											<p className="pl-1">@RagdollKittensLuxury</p>
+										</div>
+									</a>
+									<a
+										href="https://www.facebook.com/ragdollsluxury"
+										target="_blank"
+										rel="noreferrer"
+									>
+										<div className="flex justify-center sm:justify-start items-center mb-1">
+											<FaFacebookSquare />
+											<p className="pl-1">@RagdollsLuxury</p>
+										</div>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</form>

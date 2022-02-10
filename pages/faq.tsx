@@ -53,25 +53,32 @@ const Faq: NextPage = () => {
 							<h1 className="main-heading">Frequently Asked Questions</h1>
 							<p className="text-base text-gray-700 md:text-lg">
 								We have listed the most popular questions, but if you don&apos;t
-								find the question you are looking for, please contact us{' '}
+								find the answer you are looking for, please call us at{' '}
 								<span className="text-blue-500 font-medium">
-									<Link href="tel:202-270-9502">(571) 201-6369</Link>
+									<Link href="tel:240-515-6701">240-515-6701</Link>
 								</span>{' '}
-								and we will get back to you as soon as possible.
+								for more information.
 							</p>
 						</div>
 					</div>
 					<div className="space-y-4">
 						<Item title="Can I reserve a kitten?">
-							Yes! To reserve a kitten, please call us at (571) 201-6369. After
-							choosing a kitten we will sign a contract and collect a deposit.
-							After the kitten is reserved we do NOT show it to any new
+							Yes! To reserve a kitten, please call us at{' '}
+							<span className="text-blue-500 font-medium">
+								<Link href="tel:240-515-6701">240-515-6701</Link>
+							</span>
+							. After choosing a kitten we will sign a contract and collect a
+							deposit. After the kitten is reserved we do NOT show it to any new
 							customers.
 						</Item>
 						<Item title="Is there a waiting list to get a kitten?">
 							Yes, there is usually a waiting list for certain colors. The best
 							way to know if there is a waiting list or check what kittens we
-							currently have available is by calling us at (571) 201-6369.
+							currently have available is by calling us at{' '}
+							<span className="text-blue-500 font-medium">
+								<Link href="tel:240-515-6701">240-515-6701</Link>
+							</span>
+							.
 						</Item>
 						<Item title="What documents come with our kitten?">
 							Your new feline friend will come with:

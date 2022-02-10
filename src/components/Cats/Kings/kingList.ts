@@ -21,6 +21,7 @@ export const kingList = [
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
+			'/Kings/talismanScottish/talisman0.webp',
 			'/Kings/talismanScottish/talisman4.webp',
 			'/Kings/talismanScottish/talisman1.webp',
 			'/Kings/talismanScottish/talisman3.webp',
@@ -32,21 +33,18 @@ export const kingList = [
 	},
 	{
 		name: 'Philip',
-		birthday: 'September 6. 2020',
+		birthday: 'September 6, 2020',
 		breed: 'Ragdoll',
-		color: 'N-21/03 (Seal Tabby Bicolour)',
+		color: 'N-21/03 (Seal Lynx Bicolour)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
-			'/Kings/philipRagdoll/philip2.webp',
+			'/Kings/philipRagdoll/philip8.webp',
 			'/Kings/philipRagdoll/philip1.webp',
 			'/Kings/philipRagdoll/philip5.webp',
-			'/Kings/philipRagdoll/philip3.webp',
 			'/Kings/philipRagdoll/philip4.webp',
 			'/Kings/philipRagdoll/philip6.webp',
-			'/Kings/philipRagdoll/philip0.webp',
-			'/Kings/philipRagdoll/philip7.webp',
-			'/Kings/philipRagdoll/philip8.webp'
+			'/Kings/philipRagdoll/philip7.webp'
 		]
 	}
 ];

@@ -27,10 +27,10 @@ export const Navbar = () => {
 							<h2 className="text-xs md:text-sm tracking-widest">Cattery</h2>
 						</div>
 					</div>
-					<Link href="tel:571-201-6369" passHref>
+					<Link href="tel:240-515-6701" passHref>
 						<div className="cursor-pointer flex items-center text-sm text-gray-1000 md:hidden">
 							<FiPhone />
-							<p className="pl-2 text-lg">(571) 201-6369</p>
+							<p className="pl-2 text-lg">(240) 515-6701</p>
 						</div>
 					</Link>
 
@@ -125,15 +125,14 @@ export const Navbar = () => {
 										className="py-1 cursor-pointer"
 										aria-labelledby="dropdownLargeButton"
 									>
-										<Link href="/kittens" passHref>
+										<Link href="/kings" passHref>
 											<li
 												className="block py-2 px-4 text-sm text-gray-700
 												hover:bg-gray-100"
 											>
-												Kittens
+												Kings
 											</li>
 										</Link>
-
 										<Link href="/queens" passHref>
 											<li
 												className="block py-2 px-4 text-sm text-gray-700
@@ -142,12 +141,12 @@ export const Navbar = () => {
 												Queens
 											</li>
 										</Link>
-										<Link href="/kings" passHref>
+										<Link href="/kittens" passHref>
 											<li
 												className="block py-2 px-4 text-sm text-gray-700
 												hover:bg-gray-100"
 											>
-												Kings
+												Kittens
 											</li>
 										</Link>
 									</ul>
@@ -164,10 +163,10 @@ export const Navbar = () => {
 							</li>
 						</ul>
 					</div>
-					<Link href="tel:571-201-6369" passHref>
+					<Link href="tel:240-515-6701" passHref>
 						<div className="cursor-pointer md:flex text-xl font-medium items-center text-gray-1000 hidden">
 							<FiPhone />
-							<p className="pl-1">(571) 201-6369</p>
+							<p className="pl-1">(240) 515-6701</p>
 						</div>
 					</Link>
 				</div>

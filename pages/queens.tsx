@@ -28,6 +28,17 @@ const Queens: NextPage = () => {
 				</button>
 				<button
 					type="button"
+					onClick={() => setCurrentPage('scottish')}
+					className={`py-3 px-5 text-sm sm:text-md font-medium text-beige-600
+					bg-white rounded-r-md border border-gray-200 hover:bg-beige-400
+					hover:text-beige-600 focus:z-10 focus:ring-2
+					focus:ring-beige-600 focus:text-beige-600
+					${currentPage === 'scottish' && 'bg-beige-500 border-beige-600'}`}
+				>
+					Scottish Folds
+				</button>
+				<button
+					type="button"
 					onClick={() => setCurrentPage('ragdoll')}
 					className={`py-3 px-5 text-sm sm:text-md font-medium text-beige-600
 					bg-white border-t border-b border-gray-200 hover:bg-beige-400
@@ -39,17 +50,6 @@ const Queens: NextPage = () => {
 					}`}
 				>
 					Ragdolls
-				</button>
-				<button
-					type="button"
-					onClick={() => setCurrentPage('scottish')}
-					className={`py-3 px-5 text-sm sm:text-md font-medium text-beige-600
-					bg-white rounded-r-md border border-gray-200 hover:bg-beige-400
-					hover:text-beige-600 focus:z-10 focus:ring-2
-					focus:ring-beige-600 focus:text-beige-600
-					${currentPage === 'scottish' && 'bg-beige-500 border-beige-600'}`}
-				>
-					Scottish Folds
 				</button>
 			</div>
 

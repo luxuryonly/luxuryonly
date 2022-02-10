@@ -10,13 +10,10 @@ export const britishQueenList = [
 	{
 		name: 'Lucie',
 		birthday: 'August 14, 2020',
-		color: 'SY-12 (Blue Golden Chinchilla)',
+		color: 'AY-12 (Blue Golden Chinchilla)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
-		images: [
-			'/Queens/british/lucie/lucie1.webp',
-			'/Queens/british/lucie/lucie0.webp'
-		]
+		images: ['/Queens/british/lucie/lucie0.webp']
 	},
 	{
 		name: 'Darsi',
@@ -24,10 +21,6 @@ export const britishQueenList = [
 		color: 'AY-25 (Blue Golden Ticked Tabby)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
-		images: [
-			'/Queens/british/darsi/darsi0.webp',
-			'/Queens/british/darsi/darsi1.webp',
-			'/Queens/british/darsi/darsi2.webp'
-		]
+		images: ['/Queens/british/darsi/darsi2.webp']
 	}
 ];

@@ -1,5 +1,8 @@
 import Link from 'next/link';
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import { FiPhone } from 'react-icons/fi';
+import { HiOutlineMail } from 'react-icons/hi';
+import { MdOutlineLocationOn } from 'react-icons/md';
 
 export const Footer = () => {
 	return (
@@ -38,20 +41,66 @@ export const Footer = () => {
 						<Link href="/contact">Contact</Link>
 					</li>
 				</ul>
-				<div>
+				<div className="leading-relaxed">
 					<p className="w-60 mb-2">For any questions, please call us!</p>
-					<Link href="tel:571-201-6369" passHref>
-						<div className="cursor-pointer flex mb-2 items-center font-medium text-lg">
+					<Link href="tel:240-515-6701" passHref>
+						<div className="cursor-pointer flex mb-2 items-center font-medium lg:text-lg">
 							<FiPhone />
-							<p className="pl-2">(571) 201-6369</p>
+							<p className="pl-2">(240) 515-6701</p>
 						</div>
 					</Link>
-					<p className="text-blue-500 mb-1">
-						<Link href="mailto:hripunov@gmail.com">hripunov@gmail.com</Link>
-					</p>
-					<p className="font-medium lg:text-lg leading-normal mb-5">
-						North Bethesda, Maryland
-					</p>
+					<div className="flex items-center mb-1 lg:text-lg">
+						<HiOutlineMail />
+						<p className="text-blue-500 pl-2">
+							<Link href="mailto:hripunov@gmail.com">hripunov@gmail.com</Link>
+						</p>
+					</div>
+					<div className="flex items-center font-medium lg:text-lg leading-normal mb-3">
+						<MdOutlineLocationOn />
+						<p className="pl-2">North Bethesda, Maryland</p>
+					</div>
+					<div className="flex flex-col justify-around cursor-pointer">
+						<a
+							href="https://www.instagram.com/scottishfoldluxury"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flex items-center mb-1">
+								<FaInstagram />
+								<p className="pl-1">@ScottishFoldLuxury</p>
+							</div>
+						</a>
+						<a
+							href="https://www.instagram.com/ragdollkittensluxury"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flex items-center mb-1">
+								<FaInstagram />
+								<p className="pl-1">@RagdollKittensLuxury</p>
+							</div>
+						</a>
+						<a
+							href="https://www.facebook.com/scottishfoldluxury"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flex items-center mb-1">
+								<FaFacebookSquare />
+								<p className="pl-1">@ScottishFoldLuxury</p>
+							</div>
+						</a>
+						<a
+							href="https://www.facebook.com/ragdollsluxury"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<div className="flex items-center mb-1">
+								<FaFacebookSquare />
+								<p className="pl-1">@RagdollsLuxury</p>
+							</div>
+						</a>
+					</div>
 				</div>
 			</div>
 			<hr className="border-gray-200 sm:mx-auto my-6" />

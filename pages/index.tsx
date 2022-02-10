@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import { HomeCarousel } from 'src/components/Home/HomeCarousel';
 import { MainCarousel } from 'src/components/Home/MainCarousel';
 
@@ -45,7 +44,7 @@ const Home: NextPage = () => {
 					<div className="nft-card">
 						<img
 							className="breed-card-img"
-							src="/Kittens/Landscape/kitten11.webp"
+							src="/Kings/napleBritish/naple0.webp"
 							alt=""
 						/>
 						<div className="p-5">
@@ -84,8 +83,8 @@ const Home: NextPage = () => {
 					</div>
 					<div className="nft-card">
 						<img
-							className="breed-card-img"
-							src="/Kittens/Landscape/kitten10.webp"
+							className="breed-card-img object-top"
+							src="/Kings/philipRagdoll/philip8.webp"
 							alt=""
 						/>
 						<div className="p-5">
