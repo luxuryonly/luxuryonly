@@ -16,7 +16,7 @@ const Kittens: NextPage = () => {
 				more information on how to adopt one or getting on our waiting list for
 				a specific color, please call us at{' '}
 				<span className="text-blue-600">
-					<Link href="tel:571-201-6369">(571) 201-6369</Link>
+					<Link href="tel:240-515-6701">(240) 515-6701</Link>
 				</span>
 				.
 			</p>

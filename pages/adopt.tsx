@@ -1,13 +1,18 @@
 import type { NextPage } from 'next';
+import Link from 'next/link';
 
 const Adopt: NextPage = () => {
 	return (
-		<div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
+		<div className="px-4 mb-20 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-10">
 			<div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
 				<h1 className="main-heading">Adoption Information</h1>
 				<p className="text-base text-gray-700 md:text-lg">
-					Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-					accusantium doloremque rem aperiam, eaque ipsa quae.
+					Adopting a new kitten with us is very easy! Below are the simple steps
+					in the adoption process. For more information, please contact us at{' '}
+					<span className="text-blue-600">
+						<Link href="tel:240-515-6701">(240) 515-6701</Link>
+					</span>
+					.
 				</p>
 			</div>
 			<div className="grid gap-8 row-gap-0 lg:grid-cols-3">
@@ -29,8 +34,11 @@ const Adopt: NextPage = () => {
 					</div>
 					<h6 className="mb-2 text-2xl font-extrabold">Step 1</h6>
 					<p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto leading-relaxed">
-						Lookout flogging bilge rat main sheet bilge water nipper fluke to go
-						on account heave down clap
+						First step is choosing your new kitten! You may need to provide a
+						security deposit to reserve the kitten in the event that they are
+						not old enough to leave mom yet. If we do not have a kitten
+						you&apos;d like, you can join our waiting list for the specific
+						color you&apos;re looking for.
 					</p>
 
 					<div className="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
@@ -76,8 +84,8 @@ const Adopt: NextPage = () => {
 					</div>
 					<h6 className="mb-2 text-2xl font-extrabold">Step 2</h6>
 					<p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto leading-relaxed">
-						They urge you to put down your sword and come join the winners. In
-						22 years the only
+						Once a kitten has been chosen, we next sign a contract & you pick a
+						name for the kitten that will go on the paper work & certificate.
 					</p>
 
 					<div className="top-0 right-0 flex items-center justify-center h-24 lg:-mr-8 lg:absolute">
@@ -123,8 +131,10 @@ const Adopt: NextPage = () => {
 					</div>
 					<h6 className="mb-2 text-2xl font-extrabold">Step 3</h6>
 					<p className="max-w-md mb-3 text-sm text-gray-900 sm:mx-auto leading-relaxed">
-						Tell them I hate them. Is the Space Pope reptilian!? Tell her she
-						looks thin. Hello, little man
+						This is the final and best step - you get to take your new kitten
+						home! With your new kitten you will receive the signed contract, a
+						pedigree certificate, and a veterinarian passport with a history of
+						vaccinations.
 					</p>
 				</div>
 			</div>
