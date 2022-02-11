@@ -52,7 +52,9 @@ export const Footer = () => {
 					<div className="flex items-center mb-1 lg:text-lg">
 						<HiOutlineMail />
 						<p className="text-blue-500 pl-2">
-							<Link href="mailto:hripunov@gmail.com">hripunov@gmail.com</Link>
+							<Link href="mailto:info@luxuryonlykittens.com">
+								info@luxuryonlykittens.com
+							</Link>
 						</p>
 					</div>
 					<div className="flex items-center font-medium lg:text-lg leading-normal mb-3">

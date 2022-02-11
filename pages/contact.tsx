@@ -21,7 +21,7 @@ const Contact: NextPage = () => {
 				</div>
 				<form
 					className="lg:w-1/2 md:w-2/3 mx-auto"
-					action="https://formsubmit.co/adriandelgadoc1@gmail.com"
+					action="https://formsubmit.co/info@luxuryonlykittens.com"
 					method="POST"
 				>
 					<div className="flex flex-wrap -m-2">
@@ -106,8 +106,8 @@ const Contact: NextPage = () => {
 								<div className="flex items-center mb-1 lg:text-lg">
 									<HiOutlineMail />
 									<p className="text-blue-500 pl-2">
-										<Link href="mailto:hripunov@gmail.com">
-											hripunov@gmail.com
+										<Link href="mailto:info@luxuryonlykittens.com">
+											info@luxuryonlykittens.com
 										</Link>
 									</p>
 								</div>
