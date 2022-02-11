@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 
 const About: NextPage = () => {
 	return (
-		<section className="body-font lg:py-10">
+		<section className="body-font lg:py-10 mb-14">
 			<h1 className="main-heading">About Us</h1>
 			<div className="container px-5 mx-auto flex flex-col">
 				<div className="lg:w-4/6 mx-auto">
@@ -42,35 +42,45 @@ const About: NextPage = () => {
 								</h2>
 								<div className="w-12 h-1 bg-beige-800 rounded mt-2 mb-4"></div>
 								<p className="text-base">
-									Raclette knausgaard hella meggs normcore williamsburg enamel
-									pin sartorial venmo tbh hot chicken gentrify portland.
+									Owner of Luxury Only. Mother of many beautiful cats.
 								</p>
 							</div>
 						</div>
 						<div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
 							<p className="leading-relaxed text-lg mb-4">
-								Meggings portland fingerstache lyft, post-ironic fixie man bun
-								banh mi umami everyday carry hexagon locavore direct trade art
-								party. Locavore small batch listicle gastropub farm-to-table
-								lumbersexual salvia messenger bag. Coloring book flannel
-								truffaut craft beer drinking vinegar sartorial, disrupt fashion
-								axe normcore meh butcher. Portland 90&apos;s scenester
-								vexillologist forage post-ironic asymmetrical, chartreuse
-								disrupt butcher paleo intelligentsia pabst before they sold out
-								four loko. 3 wolf moon brooklyn.
+								Since I was a child, I&apos;ve absolutely loved animals. Every
+								summer I spent in a village where I was surrounded by nature. I
+								enjoyed horse riding in the middle of the day, and always tried
+								to wake up early enough to catch the rising sun. I spent a lot
+								of evenings in the summer by my pony, fishing, and sitting next
+								to my favorite friend - a cat. My first kitten was Lucie. She
+								came into my life when I was a little girl. Since that moment, I
+								had a dream to have house full of cats and kittens. In 2016 I
+								had a chance to visit Ernest Hemingway&apos;s house in Key West.
+								I fell in love with the harmony of nature, humans, and the way
+								the cats lived in his home. This helped me finally realize my
+								dream of living in a house full of cats, so I opened a cattery
+								to make sure that every single cat would live a life full of
+								love. I specialize in British and Scottish chinchillas, they are
+								so kind & super sweet.
 							</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div className="mt-20">
-				<img className="w-80 mx-auto" src="/tica_logo.webp" alt="TICA logo" />
-				<p className="py-10 text-xl text-center">
-					Luxury Only is a proud registered member of TICA.
-				</p>
-				<div className="flex justify-center">
-					<div className="bg-beige-500 w-60 h-96"></div>
-					<div className="bg-beige-500 w-60 h-96"></div>
+			<div className="mt-20 mx-auto">
+				<div className="mx-auto">
+					<img
+						className="mx-auto max-w-xs"
+						src="/tica_logo.webp"
+						alt="TICA logo"
+					/>
+					<p className="py-10 text-2xl text-center mx-auto">
+						Luxury Only is a proud registered member of TICA!
+					</p>
+				</div>
+				<div className="max-w-lg mx-auto">
+					<img src="/ticacertificate.webp" alt="" />
 				</div>
 			</div>
 		</section>

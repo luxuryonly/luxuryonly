@@ -33,7 +33,7 @@ const Kittens: NextPage = () => {
 					<img src={url} key={url} alt="" />
 				))}
 			</Carousel>
-			<div className="mx-auto mt-20 md:mt-28 pt-1 md:pt-8 pb-20 bg-beige-100">
+			<div className="mx-auto mt-12 md:mt-28 pt-1 md:pt-8 pb-20 bg-beige-100">
 				<h3 className="main-heading">Previous Litters</h3>
 				<p className="max-w-xl text-center mx-auto mb-8 sm:mb-10 px-5 text-base text-gray-700 md:text-lg">
 					All our gorgeous kittens below are from past litters.
