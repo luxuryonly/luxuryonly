@@ -1,6 +1,6 @@
 // These are all the photos of the currently available kittens on the Kittens page.
 export const availableKittens = [
-	'/Kittens/Portrait/kitten3.webp',
+	'/Kittens/Landscape/kitten4.webp',
 	'/Kittens/Landscape/kitten2.webp'
 ];
 
