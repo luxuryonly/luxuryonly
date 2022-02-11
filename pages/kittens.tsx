@@ -1,10 +1,11 @@
 import type { NextPage } from 'next';
 import Link from 'next/link';
-import Gallery from 'react-photo-gallery';
 import { Carousel } from 'react-responsive-carousel';
 import {
 	availableKittens,
-	mainKittens
+	britishKittens,
+	ragdollKittens,
+	scottishKittens
 } from 'src/components/Cats/Kittens/kittenPhotos';
 
 const Kittens: NextPage = () => {
@@ -36,11 +37,48 @@ const Kittens: NextPage = () => {
 			<div className="mx-auto mt-12 md:mt-28 pt-1 md:pt-8 pb-20 bg-beige-100">
 				<h3 className="main-heading">Previous Litters</h3>
 				<p className="max-w-xl text-center mx-auto mb-8 sm:mb-10 px-5 text-base text-gray-700 md:text-lg">
-					All our gorgeous kittens below are from past litters.
+					All our gorgeous kittens below are from past litters. To know exactly
+					what kittens we have available, please give us a call.
 				</p>
-				<div className="max-w-screen-2xl mx-auto">
-					<Gallery margin={4} photos={mainKittens} />
-				</div>
+				<h4 className="kitten-heading pt-6">British Shorthairs</h4>
+				<Carousel
+					className="max-w-screen-md text-center mx-auto pb-14"
+					centerMode={true}
+					infiniteLoop={true}
+					emulateTouch={true}
+					interval={5000}
+					dynamicHeight={true}
+				>
+					{britishKittens.map(url => (
+						<img src={url} key={url} alt="" />
+					))}
+				</Carousel>
+				<h4 className="kitten-heading">Scottish Folds & Straights</h4>
+				<Carousel
+					className="max-w-screen-md text-center mx-auto pb-14"
+					centerMode={true}
+					infiniteLoop={true}
+					emulateTouch={true}
+					interval={5000}
+					dynamicHeight={true}
+				>
+					{scottishKittens.map(url => (
+						<img src={url} key={url} alt="" />
+					))}
+				</Carousel>
+				<h4 className="kitten-heading">Ragdolls</h4>
+				<Carousel
+					className="max-w-screen-md text-center mx-auto pb-14"
+					centerMode={true}
+					infiniteLoop={true}
+					emulateTouch={true}
+					interval={5000}
+					dynamicHeight={true}
+				>
+					{ragdollKittens.map(url => (
+						<img src={url} key={url} alt="" />
+					))}
+				</Carousel>
 			</div>
 		</section>
 	);
