@@ -1,7 +1,13 @@
 // These are all the photos of the currently available kittens on the Kittens page.
 export const availableKittens = [
-	'/Kittens/Landscape/kitten4.webp',
-	'/Kittens/Landscape/kitten2.webp'
+	'/Kittens/Available/available0.webp',
+	'/Kittens/Available/available1.webp',
+	'/Kittens/Available/available2.webp',
+	'/Kittens/Available/available3.webp',
+	'/Kittens/Available/available4.webp',
+	'/Kittens/Available/available5.webp',
+	'/Kittens/Available/available6.webp',
+	'/Kittens/Available/available7.webp'
 ];
 
 // These are the photos that will go in the big gallery of kittens on the kittens page.
