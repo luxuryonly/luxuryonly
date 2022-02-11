@@ -1,17 +1,21 @@
 export const photosForHomeAtBottom = [
-	'/Kittens/Landscape/kitten0.webp',
-	'/Kittens/Landscape/kitten3.webp',
-	'/Kittens/Landscape/kitten6.webp',
-	'/Kittens/Landscape/kitten8.webp',
-	'/Kittens/Landscape/kitten12.webp',
-	'/Kittens/Landscape/kitten13.webp',
-	'/Kittens/Landscape/kitten14.webp',
-	'/Kittens/Landscape/kitten1.webp'
+	'/Kittens/Scottish/scottish0.webp',
+	'/Kittens/Scottish/scottish3.webp',
+	'/Kittens/Scottish/scottish9.webp',
+	'/Kittens/Scottish/scottish14.webp',
+	'/Kittens/Scottish/scottish31.webp',
+	'/Kittens/Scottish/scottish32.webp',
+	'/Kittens/British/british4.webp',
+	'/Kittens/British/british6.webp',
+	'/Kittens/Ragdoll/ragdolls6.webp',
+	'/Kittens/Ragdoll/ragdolls5.webp',
+	'/Kittens/Ragdoll/ragdolls3.webp',
+	'/Kittens/Ragdoll/ragdolls10.webp'
 ];
 
 export const photosForMain = [
-	'/Kittens/Portrait/kitten4.webp',
-	'/Kittens/Portrait/kitten7.webp',
-	'/Kittens/Portrait/kitten6.webp',
-	'/Kittens/Portrait/kitten31.webp'
+	'/Kittens/Scottish/scottish27.webp',
+	'/Kittens/Scottish/scottish30.webp',
+	'/Kittens/British/british22.webp',
+	'/Kittens/British/british1.webp'
 ];

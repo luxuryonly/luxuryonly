@@ -65,7 +65,7 @@ const Home: NextPage = () => {
 					<div className="nft-card">
 						<img
 							className="breed-card-img"
-							src="/Kittens/Landscape/kitten9.webp"
+							src="/Kittens/Scottish/scottish33.webp"
 							alt=""
 						/>
 						<div className="p-5">

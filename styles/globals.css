@@ -54,17 +54,13 @@ p {
 }
 
 .kitten-heading {
-	@apply text-3xl md:text-4xl font-heading text-center my-12;
+	@apply text-3xl md:text-4xl font-heading text-center my-12 text-gray-800;
 }
 
 .nft-card {
 	@apply m-4 md:m-6 md:max-w-sm rounded-3xl overflow-hidden
 	shadow-2xl bg-beige-400;
 }
-
-/* .:hover {
-	transform: scale(1.05, 1.05);
-} */
 
 /* Home */
 

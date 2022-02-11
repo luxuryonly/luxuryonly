@@ -10,7 +10,7 @@ const About: NextPage = () => {
 						<img
 							alt="content"
 							className="object-cover object-center h-full w-full"
-							src="/Kittens/Landscape/kitten1.webp"
+							src="/Kittens/Scottish/scottish42.webp"
 						/>
 					</div>
 					<div className="rounded-lg h-96 overflow-hidden sm:hidden">
@@ -42,7 +42,9 @@ const About: NextPage = () => {
 								</h2>
 								<div className="w-12 h-1 bg-beige-800 rounded mt-2 mb-4"></div>
 								<p className="text-base">
-									Owner of Luxury Only. Mother of many beautiful cats.
+									Owner of Luxury Only.
+									<br />
+									Mother of many beautiful cats.
 								</p>
 							</div>
 						</div>
