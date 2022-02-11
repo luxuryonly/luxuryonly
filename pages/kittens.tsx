@@ -38,7 +38,11 @@ const Kittens: NextPage = () => {
 				<h3 className="main-heading">Previous Litters</h3>
 				<p className="max-w-xl text-center mx-auto mb-8 sm:mb-10 px-5 text-base text-gray-700 md:text-lg">
 					All our gorgeous kittens below are from past litters. To know exactly
-					what kittens we have available, please give us a call.
+					what kittens we have available, please give us a{' '}
+					<span className="text-blue-600">
+						<Link href="tel:240-515-6701">call</Link>
+					</span>
+					.
 				</p>
 				<h4 className="kitten-heading pt-6">British Shorthairs</h4>
 				<Carousel

@@ -9,6 +9,7 @@ const Layout: React.FC = ({ children }) => (
 				rel="stylesheet"
 				href="https://unpkg.com/flowbite@1.3.3/dist/flowbite.min.css"
 			/>
+			<link rel="shortcut icon" href="/logo.webp" type="image/x-icon" />
 			<title>Luxury Only Cattery</title>
 		</Head>
 		<Navbar />

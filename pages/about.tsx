@@ -17,7 +17,7 @@ const About: NextPage = () => {
 						<img
 							alt="content"
 							className="object-cover object-center h-full w-full"
-							src="/Kittens/Landscape/kitten3.webp"
+							src="/Kittens/Scottish/scottish28.webp"
 						/>
 					</div>
 					<div className="flex flex-col sm:flex-row mt-10">
