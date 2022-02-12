@@ -27,13 +27,14 @@ const Home: NextPage = () => {
 					<p className="my-8 max-w-lg px-5 leading-relaxed">
 						We are a state-of-the-art boutique breeder of precious British
 						Shorthair, Scottish Fold/Straight, and Ragdoll cats located in
-						Bethesda, Maryland. We treat our kittens as our children who are
-						raised with love, care, and dedication. We are proud of our
-						distinguished, prize winning kittens and only offer them into good
-						homes where they will be loved and pampered. If you are looking for
-						high-quality, healthy, well-socialized and lovable kittens, then you
-						are in the right place! We truly love cats and put a lot of thought,
-						love, and care in breeding our cats.
+						Bethesda, Maryland. We are registered with TICA & the WCF! We treat
+						our kittens as our children who are raised with love, care, and
+						dedication. We are proud of our distinguished, prize winning kittens
+						and only offer them into good homes where they will be loved and
+						pampered. If you are looking for high-quality, healthy,
+						well-socialized and lovable kittens, then you are in the right
+						place! We truly love cats and put a lot of thought, love, and care
+						in breeding our cats.
 					</p>
 				</div>
 			</section>

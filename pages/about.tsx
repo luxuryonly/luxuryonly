@@ -71,18 +71,20 @@ const About: NextPage = () => {
 				</div>
 			</div>
 			<div className="mt-20 mx-auto">
-				<div className="mx-auto">
-					<img
-						className="mx-auto max-w-xs"
-						src="/tica_logo.webp"
-						alt="TICA logo"
-					/>
-					<p className="py-10 text-2xl text-center mx-auto">
-						Luxury Only is a proud registered member of TICA!
-					</p>
-				</div>
-				<div className="max-w-lg mx-auto">
-					<img src="/ticacertificate.webp" alt="" />
+				<h3 className="main-heading">Certifications</h3>
+				<p className="py-5 text-xl text-center mx-auto max-w-sm">
+					Luxury Only is a proud registered member of TICA & WCF (World Cat
+					Federation)!
+				</p>
+				<div className="max-w-7xl flex flex-wrap justify-between mx-auto">
+					<div className="max-w-lg mx-auto">
+						<h4 className="kitten-heading">TICA Certificate</h4>
+						<img src="/ticacertificate.webp" alt="" />
+					</div>
+					<div className="max-w-lg mx-auto mt-12 lg:mt-0">
+						<h4 className="kitten-heading">WCF Certificate</h4>
+						<img src="/wcfcertificate.webp" alt="" />
+					</div>
 				</div>
 			</div>
 		</section>
