@@ -25,12 +25,8 @@ p {
 	@apply font-p;
 }
 
-/*section {
-	animation: fadeIn 0.6s;
-} */
-
-header {
-	animation: fadeInDown 0.7s;
+section {
+	animation: fadeInDown 0.6s;
 }
 
 .link {
@@ -116,15 +112,9 @@ header {
 	duration-200 ease-in-out;
 }
 
-@keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
-}
-
 @keyframes fadeInDown {
 	0% {
 		opacity: 0;
-		transform: translateY(-30px);
+		transform: translateY(-10px);
 	}
 }

@@ -33,7 +33,9 @@ export const britishKittens = [
 	'/Kittens/British/british19.webp',
 	'/Kittens/British/british20.webp',
 	'/Kittens/British/british21.webp',
-	'/Kittens/British/british22.webp'
+	'/Kittens/British/british22.webp',
+	'/Kittens/British/british23.webp',
+	'/Kittens/British/british24.webp'
 ];
 
 // Pictures for Scottish Kittens in the Kittens Page
@@ -51,8 +53,6 @@ export const scottishKittens = [
 	'/Kittens/Scottish/scottish10.webp',
 	'/Kittens/Scottish/scottish11.webp',
 	'/Kittens/Scottish/scottish12.webp',
-	'/Kittens/Scottish/scottish13.webp',
-	'/Kittens/Scottish/scottish14.webp',
 	'/Kittens/Scottish/scottish15.webp',
 	'/Kittens/Scottish/scottish16.webp',
 	'/Kittens/Scottish/scottish17.webp',
@@ -98,8 +98,9 @@ export const ragdollKittens = [
 	'/Kittens/Ragdoll/ragdolls12.webp',
 	'/Kittens/Ragdoll/ragdolls13.webp',
 	'/Kittens/Ragdoll/ragdolls14.webp',
-	'/Kittens/Ragdoll/ragdolls15.webp',
-	'/Kittens/Ragdoll/ragdolls16.webp',
 	'/Kittens/Ragdoll/ragdolls17.webp',
-	'/Kittens/Ragdoll/ragdolls18.webp'
+	'/Kittens/Ragdoll/ragdolls18.webp',
+	'/Kittens/Ragdoll/ragdolls19.webp',
+	'/Kittens/Ragdoll/ragdolls20.webp',
+	'/Kittens/Ragdoll/ragdolls21.webp'
 ];
