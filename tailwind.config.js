@@ -34,6 +34,9 @@ module.exports = {
 			},
 			padding: {
 				11.5: '2.97em'
+			},
+			zIndex: {
+				'-1': '-1'
 			}
 		}
 	},

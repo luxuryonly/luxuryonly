@@ -14,6 +14,15 @@ export const kingList = [
 		]
 	},
 	{
+		name: 'Luciano',
+		birthday: 'January 12, 2019',
+		breed: 'British Shorthair',
+		color: 'NY-12 (Black Golden Chinchilla)',
+		description:
+			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
+		images: []
+	},
+	{
 		name: 'Talisman',
 		birthday: 'August 5, 2018',
 		breed: 'Scottish Straight',

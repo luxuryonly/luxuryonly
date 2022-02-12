@@ -53,7 +53,7 @@ export const Footer = () => {
 						<HiOutlineMail />
 						<p className="text-blue-500 pl-2">
 							<Link href="mailto:info@luxuryonlykittens.com">
-								info@luxuryonlykittens.com
+								info@LuxuryOnlyKittens.com
 							</Link>
 						</p>
 					</div>

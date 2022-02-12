@@ -2,10 +2,10 @@ import type { NextPage } from 'next';
 
 const About: NextPage = () => {
 	return (
-		<section className="body-font lg:py-10 mb-14">
+		<section className="lg:py-10 mb-14">
 			<h1 className="main-heading">About Us</h1>
 			<div className="container px-5 mx-auto flex flex-col">
-				<div className="lg:w-4/6 mx-auto">
+				<div className="lg:w-4/6 mx-auto z-10">
 					<div className="rounded-lg h-96 overflow-hidden sm:block hidden">
 						<img
 							alt="content"

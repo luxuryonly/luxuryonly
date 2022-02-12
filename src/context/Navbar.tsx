@@ -7,6 +7,8 @@ export const Navbar = () => {
 
 	return (
 		<header>
+			<img className="cherry-left" src="/cherryblossom2.png" alt="" />
+			<img className="cherry-right" src="/cherryblossom2.png" alt="" />
 			<div className="background-diagonal"></div>
 			<nav className="px-2 border-gray-200 md:pt-2">
 				<div className="container flex flex-wrap justify-between items-center mx-auto">

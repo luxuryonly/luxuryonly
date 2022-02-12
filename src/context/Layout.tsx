@@ -13,7 +13,10 @@ const Layout: React.FC = ({ children }) => (
 			<title>Luxury Only Cattery</title>
 		</Head>
 		<Navbar />
-		<main id="main">{children}</main>
+		<main id="main">
+			<img className="cherry-background" src="/cherryblossom1.png" alt="" />
+			{children}
+		</main>
 		<Footer />
 	</>
 );

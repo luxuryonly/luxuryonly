@@ -15,7 +15,7 @@ const Home: NextPage = () => {
 					src="/fulllogo.webp"
 					alt="LuxuryOnly Logo"
 				/>
-				<div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
+				<div className="z-30 lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0">
 					<MainCarousel />
 				</div>
 				<div className="md:w-1/2 lg:pl-28 md:pl-16 flex flex-col items-center">

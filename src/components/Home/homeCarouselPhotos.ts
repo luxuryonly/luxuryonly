@@ -13,9 +13,4 @@ export const photosForHomeAtBottom = [
 	'/Kittens/Ragdoll/ragdolls10.webp'
 ];
 
-export const photosForMain = [
-	'/Kittens/Scottish/scottish27.webp',
-	'/Kittens/Scottish/scottish30.webp',
-	'/Kittens/British/british22.webp',
-	'/Kittens/British/british1.webp'
-];
+export const photosForMain = ['/Kittens/Scottish/scottish27.webp'];

@@ -25,9 +25,9 @@ p {
 	@apply font-p;
 }
 
-section {
+/*section {
 	animation: fadeIn 0.6s;
-}
+} */
 
 header {
 	animation: fadeInDown 0.7s;
@@ -70,6 +70,19 @@ header {
 	shadow-2xl bg-beige-400;
 }
 
+.cherry-left {
+	@apply absolute top-12 left-0 -z-10 w-60
+	opacity-50 -scale-x-100 md:w-96 md:block;
+}
+
+.cherry-right {
+	@apply hidden absolute top-12 right-0 -z-10 w-60 opacity-50 md:block md:w-96;
+}
+
+.cherry-background {
+	@apply absolute bottom-0 right-0 w-60 md:w-96 opacity-40;
+}
+
 /* Home */
 
 .breed-card-heading {
@@ -83,7 +96,7 @@ header {
 
 .background-diagonal {
 	position: absolute;
-	z-index: -5;
+	z-index: -20;
 	height: 100vh;
 	width: 100vw;
 	background: linear-gradient(160deg, #e7dacf 50%, white 50%);
