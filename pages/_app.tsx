@@ -1,7 +1,7 @@
 import type { AppProps } from 'next/app';
 import Script from 'next/script';
 import 'styles/globals.css';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import Layout from 'src/context/Layout';
 

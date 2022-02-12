@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-
-import { FiPhone, FiChevronDown } from 'react-icons/fi';
+import { FiPhone } from 'react-icons/fi';
 
 export const Navbar = () => {
 	const { asPath: path } = useRouter();
