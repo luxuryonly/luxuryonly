@@ -1,4 +1,6 @@
+// Each King's info is separated by curly braces {}
 export const kingList = [
+	// Naple's Info
 	{
 		name: 'Naple',
 		birthday: 'January 12, 2019',
@@ -13,6 +15,7 @@ export const kingList = [
 			'/Kings/napleBritish/naple3.webp'
 		]
 	},
+	// Luciano's Info
 	{
 		name: 'Luciano',
 		birthday: 'March 20, 2021',
@@ -25,6 +28,7 @@ export const kingList = [
 			'/Kings/lucianoScottish/luciano0.webp'
 		]
 	},
+	// Talisman's Info
 	{
 		name: 'Talisman',
 		birthday: 'August 5, 2018',
@@ -43,6 +47,7 @@ export const kingList = [
 			'/Kings/talismanScottish/talisman2.webp'
 		]
 	},
+	// Philip's Info
 	{
 		name: 'Philip',
 		birthday: 'September 6, 2020',

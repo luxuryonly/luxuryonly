@@ -14,7 +14,7 @@ const Layout: React.FC = ({ children }) => (
 		</Head>
 		<Navbar />
 		<main id="main">
-			<img className="cherry-background" src="/cherryblossom1.png" alt="" />
+			<img className="cherry-background" src="/cherryblossom1.webp" alt="" />
 			{children}
 		</main>
 		<Footer />

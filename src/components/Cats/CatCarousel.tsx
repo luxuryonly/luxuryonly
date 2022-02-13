@@ -5,7 +5,6 @@ export function CatCarousel({ images }: { images: string[] }) {
 		<Carousel
 			className="max-w-screen-2xl text-center mx-auto"
 			infiniteLoop={true}
-			emulateTouch={true}
 			showStatus={false}
 			showIndicators={false}
 			dynamicHeight={true}
