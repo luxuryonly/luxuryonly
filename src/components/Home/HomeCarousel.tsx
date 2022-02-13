@@ -5,12 +5,9 @@ export function HomeCarousel() {
 	return (
 		<Carousel
 			className="max-w-screen-lg text-center mx-auto mb-12"
-			autoPlay={true}
 			centerMode={true}
 			infiniteLoop={true}
-			emulateTouch={true}
 			showStatus={false}
-			interval={4000}
 			dynamicHeight={true}
 		>
 			{photosForHomeAtBottom.map(url => (

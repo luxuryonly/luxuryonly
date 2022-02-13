@@ -22,19 +22,8 @@ const About: NextPage = () => {
 					</div>
 					<div className="flex flex-col sm:flex-row mt-10">
 						<div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
-							<div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
-								<svg
-									fill="none"
-									stroke="currentColor"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="2"
-									className="w-10 h-10"
-									viewBox="0 0 24 24"
-								>
-									<path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-									<circle cx="12" cy="7" r="4"></circle>
-								</svg>
+							<div className="w-40 h-40 inline-flex items-center justify-center text-gray-400">
+								<img className="rounded-full" src="/elena.webp" alt="" />
 							</div>
 							<div className="flex flex-col items-center text-center justify-center">
 								<h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
@@ -48,7 +37,7 @@ const About: NextPage = () => {
 								</p>
 							</div>
 						</div>
-						<div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+						<div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0">
 							<p className="leading-relaxed text-lg mb-4">
 								Since I was a child, I&apos;ve absolutely loved animals. Every
 								summer I spent in a village where I was surrounded by nature. I
@@ -80,6 +69,8 @@ const About: NextPage = () => {
 					<div className="max-w-lg mx-auto">
 						<h4 className="kitten-heading">TICA Certificate</h4>
 						<img src="/ticacertificate.webp" alt="" />
+						<h4 className="kitten-heading">TICA Code of Ethics</h4>
+						<img src="/ticaethics.webp" alt="" />
 					</div>
 					<div className="max-w-lg mx-auto mt-12 lg:mt-0">
 						<h4 className="kitten-heading">WCF Certificate</h4>

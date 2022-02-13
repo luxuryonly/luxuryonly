@@ -69,7 +69,10 @@ export const Navbar = () => {
 							></path>
 						</svg>
 					</button>
-					<div className="hidden w-full md:block md:w-auto" id="mobile-menu">
+					<div
+						className="hidden w-full md:block md:w-auto z-40"
+						id="mobile-menu"
+					>
 						<ul
 							className="flex flex-col mt-4 md:flex-row md:space-x-8
 						md:mt-0 md:text-sm lg:text-lg md:font-medium bg-white sm:bg-inherit"

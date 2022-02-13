@@ -5,7 +5,7 @@ export const kingList = [
 		breed: 'British Shorthair',
 		color: 'NY-12 (Black Golden Chinchilla)',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
+			"Naple is one of our favorite kings. His personality is super sweet and adorable! He is very charming and loves to play with his fish toy in the afternoons. He's the type to come and kiss you on the cheeks. His favorite food is raw steak and shrimp.",
 		images: [
 			'/Kings/napleBritish/naple0.webp',
 			'/Kings/napleBritish/naple1.webp',
@@ -15,12 +15,15 @@ export const kingList = [
 	},
 	{
 		name: 'Luciano',
-		birthday: 'January 12, 2019',
-		breed: 'British Shorthair',
-		color: 'NY-12 (Black Golden Chinchilla)',
+		birthday: 'March 20, 2021',
+		breed: 'Scottish Straight',
+		color: 'E-33 (Cream Point)',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
-		images: []
+			'Luciano was recently born in our cattery in 2021 and we fell in love with his personality. He is very charming, sweet, and funny! His favorite food is chicken and raw steak.',
+		images: [
+			'/Kings/lucianoScottish/luciano1.webp',
+			'/Kings/lucianoScottish/luciano0.webp'
+		]
 	},
 	{
 		name: 'Talisman',
@@ -28,7 +31,7 @@ export const kingList = [
 		breed: 'Scottish Straight',
 		color: 'AS-11/33 (Blue Silver Shaded Pointed)',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
+			'Talisman is our first king in our cattery. He stole all of our hearts from the moment he arrived. He is super sweet, caring, and very charming. He loves to eat fish, steak and eggs!',
 		images: [
 			'/Kings/talismanScottish/talisman0.webp',
 			'/Kings/talismanScottish/talisman4.webp',
@@ -46,7 +49,7 @@ export const kingList = [
 		breed: 'Ragdoll',
 		color: 'N-21/03 (Seal Lynx Bicolour)',
 		description:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
+			'Philip is super sweet! Ragdolls overall are famous for their charming personalities. But this king stole our heart at first sight. He would wait for us under the door everyday to come home to play with him. Philip is a very charming, charismatic, and handsome gentleman. His favorite food is raw meat and shrimp.',
 		images: [
 			'/Kings/philipRagdoll/philip8.webp',
 			'/Kings/philipRagdoll/philip1.webp',
