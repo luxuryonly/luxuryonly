@@ -13,7 +13,7 @@ export const scottishQueenList = [
 	{
 		name: 'Kleo',
 		birthday: 'June 22, 2019',
-		color: 'NS-11 (Black Golden Shaded)',
+		color: 'NS-11 (Black Silver Shaded)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
@@ -27,7 +27,7 @@ export const scottishQueenList = [
 	{
 		name: 'Zefirka',
 		birthday: 'July 5, 2017',
-		color: 'F-21/33 (Black Tortie Tabby Pointed)',
+		color: 'F-21 33 (Black Tortie Tabby Pointed)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: [
@@ -39,7 +39,7 @@ export const scottishQueenList = [
 	{
 		name: 'Yasemin',
 		birthday: 'September 15, 2018',
-		color: 'AS-11/33 (Blue Silver Shaded Pointed)',
+		color: 'AS-11 33 (Blue Silver Shaded Pointed)',
 		description:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat ipsam est laboriosam esse et dolorum nisi eligendi cumque odit.',
 		images: ['/Queens/scottish/yasmin/yasmin0.webp']

@@ -33,7 +33,7 @@ export const kingList = [
 		name: 'Talisman',
 		birthday: 'August 5, 2018',
 		breed: 'Scottish Straight',
-		color: 'AS-11/33 (Blue Silver Shaded Pointed)',
+		color: 'AS-11 33 (Blue Silver Shaded Pointed)',
 		description:
 			'Talisman is our first king in our cattery. He stole all of our hearts from the moment he arrived. He is super sweet, caring, and very charming. He loves to eat fish, steak and eggs!',
 		images: [
@@ -52,7 +52,7 @@ export const kingList = [
 		name: 'Philip',
 		birthday: 'September 6, 2020',
 		breed: 'Ragdoll',
-		color: 'N-21/03 (Seal Lynx Bicolour)',
+		color: 'N-21 03 (Seal Lynx Bicolour)',
 		description:
 			'Philip is super sweet! Ragdolls overall are famous for their charming personalities. But this king stole our heart at first sight. He would wait for us under the door everyday to come home to play with him. Philip is a very charming, charismatic, and handsome gentleman. His favorite food is raw meat and shrimp.',
 		images: [
