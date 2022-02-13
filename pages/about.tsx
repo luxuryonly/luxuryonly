@@ -39,8 +39,8 @@ const About: NextPage = () => {
 						</div>
 						<div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0">
 							<p className="leading-relaxed text-lg mb-4">
-								Since I was a child, I&apos;ve absolutely loved animals. Every
-								summer I spent in a village where I was surrounded by nature. I
+								Since I was a child, I&apos;ve absolutely loved animals. I spent
+								every summer in a village where I was surrounded by nature. I
 								enjoyed horse riding in the middle of the day, and always tried
 								to wake up early enough to catch the rising sun. I spent a lot
 								of evenings in the summer by my pony, fishing, and sitting next
