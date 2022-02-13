@@ -7,7 +7,7 @@ export const kingList = [
 		breed: 'British Shorthair',
 		color: 'NY-12 (Black Golden Chinchilla)',
 		description:
-			"Naple is one of our favorite kings. His personality is super sweet and adorable! He is very charming and loves to play with his fish toy in the afternoons. He's the type to come and kiss you on the cheeks. His favorite food is raw steak and shrimp.",
+			"Naple is one of our favorite kings! He is a very sophisticated gentleman who loves listening to classical music while laying by the fireplace. His personality is super sweet and adorable! He is very charming and loves to play with his fish toy in the afternoons. He's the type to come and kiss you on the cheeks. His favorite food is raw steak and shrimp.",
 		images: [
 			'/Kings/napleBritish/naple0.webp',
 			'/Kings/napleBritish/naple1.webp',
