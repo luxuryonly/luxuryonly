@@ -156,9 +156,6 @@ export const Navbar = () => {
 									</ul>
 								</div>
 							</li>
-							{/* <li className={path === '/adopt' ? 'active-nav' : 'nav-item'}>
-								<Link href="/adopt">Adopt</Link>
-							</li> */}
 							<li className={path === '/faq' ? 'active-nav' : 'nav-item'}>
 								<Link href="/faq">FAQ</Link>
 							</li>

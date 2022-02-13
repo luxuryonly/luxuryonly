@@ -1,3 +1,8 @@
+// These are the photos for the portrait pictures from when you first
+// ever visit the website.
+export const photosForMain = ['/Kittens/Scottish/scottish27.webp'];
+
+// These are the photos for the carousel in the bottom of the homepage
 export const photosForHomeAtBottom = [
 	'/Kittens/Scottish/scottish0.webp',
 	'/Kittens/Scottish/scottish3.webp',
@@ -10,5 +15,3 @@ export const photosForHomeAtBottom = [
 	'/Kittens/Ragdoll/ragdolls3.webp',
 	'/Kittens/Ragdoll/ragdolls10.webp'
 ];
-
-export const photosForMain = ['/Kittens/Scottish/scottish27.webp'];
