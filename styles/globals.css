@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Allura&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	@apply font-p;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	@apply font-heading;
+}
+
+p {
+	@apply font-p;
+}
+
+section {
+	animation: fadeInDown 0.6s;
+}
+
+.link {
+	@apply underline text-blue-600 hover:text-blue-800;
+}
+
+.p-clamp {
+	width: clamp(45ch, 50%, 75ch);
+}
+
+.nav-item {
+	@apply block py-2 pr-4 pl-3 font-medium text-base lg:text-xl md:p-0
+	text-gray-700 border-b border-gray-100 md:border-0
+	hover:text-beige-800;
+}
+
+.active-nav {
+	@apply block py-2 pr-4 pl-3 font-medium text-base lg:text-xl md:p-0
+	border-b-2 sm:border-beige-800 sm:hover:border-blue-700
+	hover:text-blue-700 text-beige-800;
+}
+
+.footer-item {
+	@apply font-medium lg:text-lg mb-1 hover:text-beige-800;
+}
+
+.main-heading {
+	@apply text-5xl md:text-6xl font-logo text-center font-medium my-12;
+}
+
+.kitten-heading {
+	@apply text-3xl md:text-4xl font-heading text-center my-12 text-gray-800;
+}
+
+.nft-card {
+	@apply m-4 md:m-6 md:max-w-sm rounded-3xl overflow-hidden
+	shadow-2xl bg-beige-400;
+}
+
+.cherry-left {
+	@apply absolute top-12 left-0 -z-10 w-60
+	opacity-50 -scale-x-100 md:w-96 md:block;
+}
+
+.cherry-right {
+	@apply hidden absolute top-12 right-0 -z-10 w-60 opacity-50 md:block md:w-96;
+}
+
+.cherry-background {
+	@apply absolute bottom-0 right-0 w-60 md:w-96 opacity-40;
+}
+
+/* Home */
+
+.breed-card-heading {
+	@apply text-xl text-center font-bold md:my-2 text-beige-600
+	tracking-tight md:text-2xl md:font-bold;
+}
+
+.breed-card-img {
+	@apply rounded-t-lg object-cover w-full md:h-72 h-full;
+}
+
+.background-diagonal {
+	position: absolute;
+	z-index: -20;
+	height: 100vh;
+	width: 100vw;
+	background: linear-gradient(160deg, #e7dacf 50%, white 50%);
+}
+
+/* Contact */
+
+.input-label {
+	@apply leading-7 text-sm ml-1 text-gray-600;
+}
+
+.input-field {
+	@apply w-full bg-beige-100 rounded-lg border
+	border-gray-300 focus:border-blue-500 focus:bg-white
+	focus:ring-2 focus:ring-blue-200 text-base outline-none
+	text-gray-700 py-1 px-3 leading-8 transition-colors
+	duration-200 ease-in-out;
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+}

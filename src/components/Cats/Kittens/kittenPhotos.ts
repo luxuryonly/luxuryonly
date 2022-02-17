@@ -1,0 +1,103 @@
+// These are all the photos of the currently available kittens on the Kittens page.
+export const availableKittens = [
+	'/Kittens/Available/available0.webp',
+	'/Kittens/Available/available1.webp',
+	'/Kittens/Available/available2.webp',
+	'/Kittens/Available/available3.webp',
+	'/Kittens/Available/available4.webp',
+	'/Kittens/Available/available5.webp',
+	'/Kittens/Available/available6.webp',
+	'/Kittens/Available/available7.webp'
+];
+
+// Pictures for British Kittens in the Kittens Page
+export const britishKittens = [
+	'/Kittens/British/british1.webp',
+	'/Kittens/British/british2.webp',
+	'/Kittens/British/british3.webp',
+	'/Kittens/British/british4.webp',
+	'/Kittens/British/british5.webp',
+	'/Kittens/British/british6.webp',
+	'/Kittens/British/british7.webp',
+	'/Kittens/British/british8.webp',
+	'/Kittens/British/british9.webp',
+	'/Kittens/British/british10.webp',
+	'/Kittens/British/british13.webp',
+	'/Kittens/British/british14.webp',
+	'/Kittens/British/british15.webp',
+	'/Kittens/British/british16.webp',
+	'/Kittens/British/british17.webp',
+	'/Kittens/British/british18.webp',
+	'/Kittens/British/british19.webp',
+	'/Kittens/British/british20.webp',
+	'/Kittens/British/british21.webp',
+	'/Kittens/British/british22.webp',
+	'/Kittens/British/british23.webp',
+	'/Kittens/British/british24.webp'
+];
+
+// Pictures for Scottish Kittens in the Kittens Page
+export const scottishKittens = [
+	'/Kittens/Scottish/scottish0.webp',
+	'/Kittens/Scottish/scottish1.webp',
+	'/Kittens/Scottish/scottish2.webp',
+	'/Kittens/Scottish/scottish3.webp',
+	'/Kittens/Scottish/scottish4.webp',
+	'/Kittens/Scottish/scottish5.webp',
+	'/Kittens/Scottish/scottish6.webp',
+	'/Kittens/Scottish/scottish7.webp',
+	'/Kittens/Scottish/scottish8.webp',
+	'/Kittens/Scottish/scottish9.webp',
+	'/Kittens/Scottish/scottish10.webp',
+	'/Kittens/Scottish/scottish11.webp',
+	'/Kittens/Scottish/scottish12.webp',
+	'/Kittens/Scottish/scottish15.webp',
+	'/Kittens/Scottish/scottish16.webp',
+	'/Kittens/Scottish/scottish17.webp',
+	'/Kittens/Scottish/scottish18.webp',
+	'/Kittens/Scottish/scottish19.webp',
+	'/Kittens/Scottish/scottish20.webp',
+	'/Kittens/Scottish/scottish21.webp',
+	'/Kittens/Scottish/scottish22.webp',
+	'/Kittens/Scottish/scottish23.webp',
+	'/Kittens/Scottish/scottish24.webp',
+	'/Kittens/Scottish/scottish25.webp',
+	'/Kittens/Scottish/scottish26.webp',
+	'/Kittens/Scottish/scottish27.webp',
+	'/Kittens/Scottish/scottish28.webp',
+	'/Kittens/Scottish/scottish29.webp',
+	'/Kittens/Scottish/scottish30.webp',
+	'/Kittens/Scottish/scottish31.webp',
+	'/Kittens/Scottish/scottish33.webp',
+	'/Kittens/Scottish/scottish34.webp',
+	'/Kittens/Scottish/scottish35.webp',
+	'/Kittens/Scottish/scottish36.webp',
+	'/Kittens/Scottish/scottish37.webp',
+	'/Kittens/Scottish/scottish38.webp',
+	'/Kittens/Scottish/scottish39.webp',
+	'/Kittens/Scottish/scottish40.webp',
+	'/Kittens/Scottish/scottish41.webp',
+	'/Kittens/Scottish/scottish42.webp'
+];
+
+// Pictures for Ragdoll Kittens in the Kittens Page
+export const ragdollKittens = [
+	'/Kittens/Ragdoll/ragdolls4.webp',
+	'/Kittens/Ragdoll/ragdolls2.webp',
+	'/Kittens/Ragdoll/ragdolls3.webp',
+	'/Kittens/Ragdoll/ragdolls5.webp',
+	'/Kittens/Ragdoll/ragdolls6.webp',
+	'/Kittens/Ragdoll/ragdolls7.webp',
+	'/Kittens/Ragdoll/ragdolls8.webp',
+	'/Kittens/Ragdoll/ragdolls9.webp',
+	'/Kittens/Ragdoll/ragdolls10.webp',
+	'/Kittens/Ragdoll/ragdolls11.webp',
+	'/Kittens/Ragdoll/ragdolls12.webp',
+	'/Kittens/Ragdoll/ragdolls13.webp',
+	'/Kittens/Ragdoll/ragdolls14.webp',
+	'/Kittens/Ragdoll/ragdolls17.webp',
+	'/Kittens/Ragdoll/ragdolls18.webp',
+	'/Kittens/Ragdoll/ragdolls19.webp',
+	'/Kittens/Ragdoll/ragdolls20.webp',
+	'/Kittens/Ragdoll/ragdolls21.webp'
+];
