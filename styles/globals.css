@@ -118,3 +118,49 @@ section {
 		transform: translateY(-10px);
 	}
 }
+
+/* Hamburger */
+
+.hamburger-react {
+	z-index: 4;
+	animation: hamburger 1s ease-out forwards;
+}
+
+.nav-links {
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: min(75vw, 400px);
+	padding: 6em 0;
+	height: 100vh;
+	position: fixed;
+	right: 0;
+	top: 0;
+	background-color: #e7dacf;
+	box-shadow: -10px 0px 30px -15px black;
+	z-index: 3;
+}
+
+.animate-mobile {
+	animation: menuBar 0.3s ease-out;
+}
+
+.animate-back-in {
+	transform: translateZ(0);
+}
+
+.mobile-background {
+	@apply absolute bottom-0 right-0 w-60 opacity-40 -z-10;
+}
+
+@keyframes menuBar {
+	0% {
+		transform: translateX(300px);
+	}
+}
+
+@keyframes hamburger {
+	0% {
+		transform: translateY(3px);
+		opacity: 0;
+	}
+}
