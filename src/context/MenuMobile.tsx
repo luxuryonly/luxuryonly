@@ -22,7 +22,7 @@ const MenuMobile = () => {
 		<div className="md:hidden">
 			<Hamburger
 				label="Show Menu"
-				size={22}
+				size={26}
 				toggled={isOpen}
 				toggle={setOpen}
 				hideOutline={false}

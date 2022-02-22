@@ -6,19 +6,19 @@ const Item = ({ title, children }: { title: string; children: ReactNode }) => {
 	const [isOpen, setIsOpen] = useState(false);
 
 	return (
-		<div className="border rounded shadow-sm bg-beige-100">
+		<div className="z-30 border rounded shadow-sm bg-beige-100">
 			<button
 				type="button"
 				aria-label="Open item"
 				title="Open item"
-				className="flex items-center justify-between w-full p-4 focus:outline-none"
+				className="z-30 flex items-center justify-between w-full p-4 focus:outline-none"
 				onClick={() => setIsOpen(!isOpen)}
 			>
-				<p className="text-lg font-medium leading-relaxed">{title}</p>
-				<div className="flex items-center justify-center w-8 h-8 border rounded-full">
+				<p className="z-30 text-lg font-medium leading-relaxed">{title}</p>
+				<div className="z-30 flex items-center justify-center w-8 h-8 border rounded-full">
 					<svg
 						viewBox="0 0 24 24"
-						className={`w-3 text-gray-600 transition-transform duration-200 ${
+						className={`z-30 w-3 text-gray-600 transition-transform duration-200 ${
 							isOpen ? 'transform rotate-180' : ''
 						}`}
 					>
@@ -35,7 +35,7 @@ const Item = ({ title, children }: { title: string; children: ReactNode }) => {
 				</div>
 			</button>
 			{isOpen && (
-				<div className="p-4 pt-0">
+				<div className="p-4 pt-0 z-30">
 					<p className="text-gray-700">{children}</p>
 				</div>
 			)}
@@ -60,7 +60,7 @@ const Faq: NextPage = () => {
 						</p>
 					</div>
 				</div>
-				<div className="space-y-4 mb-16">
+				<div className="space-y-4 mb-16 z-30">
 					<Item title="Can I reserve a kitten?">
 						Yes! To reserve a kitten, please call us at{' '}
 						<span className="text-blue-500 font-medium">
