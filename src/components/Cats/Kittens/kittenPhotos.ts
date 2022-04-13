@@ -34,7 +34,8 @@ export const britishKittens = [
 	'/Kittens/British/british21.webp',
 	'/Kittens/British/british22.webp',
 	'/Kittens/British/british23.webp',
-	'/Kittens/British/british24.webp'
+	'/Kittens/British/british24.webp',
+	'/Kittens/British/IMG-2573.jpg'
 ];
 
 // Pictures for Scottish Kittens in the Kittens Page
