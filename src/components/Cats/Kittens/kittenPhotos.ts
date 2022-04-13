@@ -7,7 +7,8 @@ export const availableKittens = [
 	'/Kittens/Available/available4.webp',
 	'/Kittens/Available/available5.webp',
 	'/Kittens/Available/available6.webp',
-	'/Kittens/Available/available7.webp'
+	'/Kittens/Available/available7.webp', 
+	'/Kittens/Available/IMG-4775.jpg'
 ];
 
 // Pictures for British Kittens in the Kittens Page
