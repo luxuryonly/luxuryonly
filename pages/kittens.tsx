@@ -7,6 +7,7 @@ import {
 	ragdollKittens,
 	scottishKittens
 } from 'src/components/Cats/Kittens/kittenPhotos';
+import { TEL_NUM_FORM, TEL_NUM_VIEW } from 'src/config/constants';
 
 const Kittens: NextPage = () => {
 	return (
@@ -17,7 +18,7 @@ const Kittens: NextPage = () => {
 				more information on how to adopt one or getting on our waiting list for
 				a specific color, please call us at{' '}
 				<span className="text-blue-600">
-					<Link href="tel:240-515-6701">(240) 515-6701</Link>
+					<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
 				</span>
 				.
 			</p>
@@ -40,7 +41,7 @@ const Kittens: NextPage = () => {
 					All our gorgeous kittens below are from past litters. To know exactly
 					what kittens we have available, please give us a{' '}
 					<span className="text-blue-600">
-						<Link href="tel:240-515-6701">call</Link>
+						<Link href={`tel:${TEL_NUM_FORM}`}>call</Link>
 					</span>
 					.
 				</p>

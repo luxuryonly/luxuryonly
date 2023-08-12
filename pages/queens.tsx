@@ -53,15 +53,9 @@ const Queens: NextPage = () => {
 				</button>
 			</div>
 
-			{currentPage === 'british' ? (
-				<QueenCat catList={britishQueenList} />
-			) : null}
-			{currentPage === 'scottish' ? (
-				<QueenCat catList={scottishQueenList} />
-			) : null}
-			{currentPage === 'ragdoll' ? (
-				<QueenCat catList={ragdollsQueenList} />
-			) : null}
+			{currentPage === 'british' && <QueenCat queenList={britishQueenList} />}
+			{currentPage === 'scottish' && <QueenCat queenList={scottishQueenList} />}
+			{currentPage === 'ragdoll' && <QueenCat queenList={ragdollsQueenList} />}
 		</section>
 	);
 };

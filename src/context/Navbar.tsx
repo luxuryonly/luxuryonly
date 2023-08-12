@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { FiPhone } from 'react-icons/fi';
+import { TEL_NUM_FORM, TEL_NUM_VIEW } from 'src/config/constants';
 
 export const Navbar = () => {
 	const { asPath: path } = useRouter();
@@ -28,10 +29,10 @@ export const Navbar = () => {
 							<h2 className="text-xs md:text-sm tracking-widest">Cattery</h2>
 						</div>
 					</div>
-					<Link href="tel:240-515-6701" passHref>
+					<Link href={`tel:${TEL_NUM_FORM}`} passHref>
 						<div className="cursor-pointer flex items-center text-sm text-gray-1000 md:hidden">
 							<FiPhone />
-							<p className="pl-2 text-lg">(240) 515-6701</p>
+							<p className="pl-2 text-lg">{TEL_NUM_VIEW}</p>
 						</div>
 					</Link>
 
@@ -164,10 +165,10 @@ export const Navbar = () => {
 							</li>
 						</ul>
 					</div>
-					<Link href="tel:240-515-6701" passHref>
+					<Link href={`tel:${TEL_NUM_FORM}`} passHref>
 						<div className="cursor-pointer md:flex text-xl font-medium items-center text-gray-1000 hidden">
 							<FiPhone />
-							<p className="pl-1">(240) 515-6701</p>
+							<p className="pl-1">{TEL_NUM_VIEW}</p>
 						</div>
 					</Link>
 				</div>
