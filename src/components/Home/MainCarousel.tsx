@@ -4,8 +4,8 @@ import { photosForMain } from './homeCarouselPhotos';
 export const MainCarousel = () => (
 	<Carousel
 		className="max-w-lg overflow-hidden text-center mx-auto rounded-2xl"
-		autoPlay={true}
-		infiniteLoop={true}
+		autoPlay
+		infiniteLoop
 		interval={4000}
 		showThumbs={false}
 		showStatus={false}

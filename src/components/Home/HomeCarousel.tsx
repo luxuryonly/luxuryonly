@@ -4,10 +4,10 @@ import { photosForHomeAtBottom } from './homeCarouselPhotos';
 export const HomeCarousel = () => (
 	<Carousel
 		className="max-w-screen-lg text-center mx-auto mb-12"
-		centerMode={true}
-		infiniteLoop={true}
 		showStatus={false}
-		dynamicHeight={true}
+		centerMode
+		infiniteLoop
+		dynamicHeight
 	>
 		{photosForHomeAtBottom.map(url => (
 			<img src={url} key={url} alt="" />

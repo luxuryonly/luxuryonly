@@ -37,11 +37,7 @@ function Item({ title, children }: Props) {
 					</svg>
 				</div>
 			</button>
-			{isOpen && (
-				<div className="p-4 pt-0">
-					<p className="text-gray-700">{children}</p>
-				</div>
-			)}
+			{isOpen && <div className="p-4 pt-0 text-gray-700">{children}</div>}
 		</div>
 	);
 }
@@ -64,29 +60,36 @@ const Faq: NextPage = () => (
 			</div>
 			<div className="space-y-4 mb-16">
 				<Item title="Can I reserve a kitten?">
-					Yes! To reserve a kitten, please call us at{' '}
-					<span className="text-blue-500 font-medium">
-						<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
-					</span>
-					. After choosing a kitten we will sign a contract and collect a
-					deposit. After the kitten is reserved we do NOT show it to any new
-					customers.
+					<p>
+						Yes! To reserve a kitten, please call us at{' '}
+						<span className="text-blue-500 font-medium">
+							<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
+						</span>
+						. After choosing a kitten we will sign a contract and collect a
+						deposit. After the kitten is reserved we do NOT show it to any new
+						customers.
+					</p>
 				</Item>
 				<Item title="Is there a waiting list to get a kitten?">
-					Sometimes there is a waiting list for special kittens. We would try to
-					do our best to fulfill your expectations within 6 months. For more
-					information, call us at{' '}
-					<span className="text-blue-500 font-medium">
-						<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
-					</span>
-					.
+					<p>
+						Sometimes there is a waiting list for special kittens. We would try
+						to do our best to fulfill your expectations within 6 months. For
+						more information, call us at{' '}
+						<span className="text-blue-500 font-medium">
+							<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
+						</span>
+						.
+					</p>
 				</Item>
 				<Item title="What vaccines will my kitten come with?">
-					Breeding healthy kittens is our #1 priority above anything else.
-					<br />
-					We take this very seriously.
-					<br /> <br />
-					Every kitten comes with:
+					<p>
+						Breeding healthy kittens is our #1 priority above anything else.
+						<br />
+						We take this very seriously.
+						<br />
+						<br />
+						Every kitten comes with:
+					</p>
 					<ol>
 						<li>1. 2 rounds of deworming</li>
 						<li>
@@ -97,7 +100,7 @@ const Faq: NextPage = () => (
 					</ol>
 				</Item>
 				<Item title="What documents come with our kitten?">
-					Your new kitten will come with:
+					<p>Your new kitten will come with:</p>
 					<ol>
 						<li>1. A Signed Contract</li>
 						<li>2. Pedigree certificate</li>
@@ -105,45 +108,59 @@ const Faq: NextPage = () => (
 					</ol>
 				</Item>
 				<Item title="Are kittens spayed/neutered?">
-					No, we recommend to neuter or spay kittens at the age of 6-9 months
-					and sending us proof of the procedure.
+					<p>
+						No, we recommend to neuter or spay kittens at the age of 6-9 months
+						and sending us proof of the procedure.
+					</p>
 				</Item>
 				<Item title="How much is a kitten?">
-					Kittens start from $1,850. Adoption fee could be higher depending on
-					the color and type of the kitten. Kittens with breeding rights start
-					from $3,500.
+					<p>
+						Kittens start from $1,850. Adoption fee could be higher depending on
+						the color and type of the kitten. Kittens with breeding rights start
+						from $3,500.
+					</p>
 				</Item>
 				<Item title="Can I return my kitten?">
-					Yes. After a kitten is adopted, we recommend you visit a doctor within
-					5 days to make sure that the kitten is healthy. If there are any
-					issues, please contact us immediately. If you change your mind about
-					the kitten, the cat must be returned to the original cattery and we
-					would start helping them find a new family. In this scenario no
-					adoption fee would be returned.
+					<p>
+						Yes. After a kitten is adopted, we recommend you visit a doctor
+						within 5 days to make sure that the kitten is healthy. If there are
+						any issues, please contact us immediately. If you change your mind
+						about the kitten, the cat must be returned to the original cattery
+						and we would start helping them find a new family. In this scenario
+						no adoption fee would be returned.
+					</p>
 				</Item>
 				<Item title="What will my kitten come with?">
-					We give full instructions on how to take care of your new family
-					member and how to feed them. We also provide you with a food sample or
-					what they&apos;re used to eating.
+					<p>
+						We give full instructions on how to take care of your new family
+						member and how to feed them. We also provide you with a food sample
+						or what they&apos;re used to eating.
+					</p>
 				</Item>
 				<Item title="Will my kitten be registered?">
-					Yes! All of our kittens are registered with the World Cat Federation
-					(WCF) and come with a Pedigree certification.
+					<p>
+						Yes! All of our kittens are registered with the World Cat Federation
+						(WCF) and come with a Pedigree certification.
+					</p>
 				</Item>
 				<Item title="What kinds of food do you feed your cats?">
-					We give recommendations on how to feed a kitten. We feed them
-					top-quality wet food and grain-free dry food. Cat&apos;s dry food is
-					balanced on nutrition and has everything that they need to stay strong
-					and healthy.
+					<p>
+						We give recommendations on how to feed a kitten. We feed them
+						top-quality wet food and grain-free dry food. Cat&apos;s dry food is
+						balanced on nutrition and has everything that they need to stay
+						strong and healthy.
+					</p>
 				</Item>
 				<Item title="Is there a contract?">
-					Yes. With every new adoption there will be a contract. For any
-					additional information, please contact us at{' '}
-					<span className="text-blue-500 font-medium">
-						<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
-					</span>
-					. Our cattery&apos;s name is &quot;Luxury Only&quot; and the best
-					contract person is Elena.
+					<p>
+						Yes. With every new adoption there will be a contract. For any
+						additional information, please contact us at{' '}
+						<span className="text-blue-500 font-medium">
+							<Link href={`tel:${TEL_NUM_FORM}`}>{TEL_NUM_VIEW}</Link>
+						</span>
+						. Our cattery&apos;s name is &quot;Luxury Only&quot; and the best
+						contract person is Elena.
+					</p>
 				</Item>
 			</div>
 		</div>
