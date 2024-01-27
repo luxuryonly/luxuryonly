@@ -100,7 +100,7 @@ const Contact: NextPage = () => {
 								<Link href="tel:240-515-6701" passHref>
 									<div className="cursor-pointer flex mb-2 items-center font-medium lg:text-lg">
 										<FiPhone />
-										<p className="pl-2">(240) 515-6701</p>
+										<p className="pl-2">+1 301-450-6343</p>
 									</div>
 								</Link>
 								<div className="flex items-center mb-1 lg:text-lg">
