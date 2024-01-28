@@ -97,7 +97,7 @@ const Contact: NextPage = () => {
 
 							<div className="leading-relaxed text-center flex flex-col justify-center items-center">
 								<p className="w-60 mb-2">For any questions, please call us!</p>
-								<Link href="tel:240-515-6701" passHref>
+								<Link href="tel:+13014506343" passHref>
 									<div className="cursor-pointer flex mb-2 items-center font-medium lg:text-lg">
 										<FiPhone />
 										<p className="pl-2">+1 301-450-6343</p>
