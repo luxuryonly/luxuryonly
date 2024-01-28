@@ -167,7 +167,7 @@ export const Navbar = () => {
 					<Link href="tel:240-515-6701" passHref>
 						<div className="cursor-pointer md:flex text-xl font-medium items-center text-gray-1000 hidden">
 							<FiPhone />
-							<p className="pl-1">(240) 515-6701</p>
+							<p className="pl-1">+1 301-450-6343</p>
 						</div>
 					</Link>
 				</div>
