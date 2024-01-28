@@ -102,7 +102,8 @@ export const Footer = () => {
 								<p className="pl-2 text-sm md:text-base">@RagdollsLuxury</p>
 							</div>
 						</a>
-					</div>-->
+					</div>
+						-->
 				</div>
 			</div>
 			<hr className="border-gray-200 sm:mx-auto my-6" />
