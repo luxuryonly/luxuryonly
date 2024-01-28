@@ -59,7 +59,6 @@ export const Footer = () => {
 						<p className="pl-2">North Bethesda, Maryland</p>
 					</div>
 					<!--
-
 						-->
 				</div>
 			</div>
