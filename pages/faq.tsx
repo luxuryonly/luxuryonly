@@ -54,7 +54,7 @@ const Faq: NextPage = () => {
 							We have listed the most popular questions, but if you don&apos;t
 							find the answer you are looking for, please call us at{' '}
 							<span className="text-blue-500 font-medium">
-								<Link href="tel:240-515-6701">240-515-6701</Link>
+								<Link href="tel:+13014506343">+1 301-450-6343</Link>
 							</span>{' '}
 							for more information.
 						</p>
