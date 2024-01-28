@@ -58,6 +58,7 @@ export const Footer = () => {
 						<MdOutlineLocationOn />
 						<p className="pl-2">North Bethesda, Maryland</p>
 					</div>
+					<!--
 					<div className="flex flex-col justify-around cursor-pointer">
 						<a
 							href="https://www.instagram.com/scottishfoldluxury"
@@ -101,7 +102,7 @@ export const Footer = () => {
 								<p className="pl-2 text-sm md:text-base">@RagdollsLuxury</p>
 							</div>
 						</a>
-					</div>
+					</div>-->
 				</div>
 			</div>
 			<hr className="border-gray-200 sm:mx-auto my-6" />
