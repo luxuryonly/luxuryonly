@@ -28,7 +28,7 @@ export const Navbar = () => {
 							<h2 className="text-xs md:text-sm tracking-widest">Cattery</h2>
 						</div>
 					</div>
-					<Link href="tel:240-515-6701" passHref>
+					<Link href="tel:+13014506343" passHref>
 						<div className="cursor-pointer flex items-center text-sm text-gray-1000 md:hidden">
 							<FiPhone />
 							<p className="pl-2 text-lg">+1 301-450-6343</p>
