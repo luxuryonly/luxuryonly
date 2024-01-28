@@ -59,50 +59,7 @@ export const Footer = () => {
 						<p className="pl-2">North Bethesda, Maryland</p>
 					</div>
 					<!--
-					<div className="flex flex-col justify-around cursor-pointer">
-						<a
-							href="https://www.instagram.com/scottishfoldluxury"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<div className="flex items-center mb-1">
-								<FaInstagram />
-								<p className="pl-2 text-sm md:text-base">@ScottishFoldLuxury</p>
-							</div>
-						</a>
-						<a
-							href="https://www.instagram.com/ragdollkittensluxury"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<div className="flex items-center mb-1">
-								<FaInstagram />
-								<p className="pl-2 text-sm md:text-base">
-									@RagdollKittensLuxury
-								</p>
-							</div>
-						</a>
-						<a
-							href="https://www.facebook.com/scottishfoldluxury"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<div className="flex items-center mb-1">
-								<FaFacebookSquare />
-								<p className="pl-2 text-sm md:text-base">@ScottishFoldLuxury</p>
-							</div>
-						</a>
-						<a
-							href="https://www.facebook.com/ragdollsluxury"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<div className="flex items-center mb-1">
-								<FaFacebookSquare />
-								<p className="pl-2 text-sm md:text-base">@RagdollsLuxury</p>
-							</div>
-						</a>
-					</div>
+
 						-->
 				</div>
 			</div>
