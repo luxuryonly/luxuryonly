@@ -13,6 +13,7 @@ const About: NextPage = () => {
 							src="/Kittens/Scottish/scottish42.webp"
 						/>
 					</div>
+					
 					<div className="rounded-lg h-96 overflow-hidden sm:hidden">
 						<img
 							alt="content"
